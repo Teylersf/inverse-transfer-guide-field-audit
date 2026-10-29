@@ -1,0 +1,27 @@
+{
+  "observed_at_utc": "2026-10-29T21:11:35.750027+00:00",
+  "state": "published",
+  "submission_id": 1281,
+  "submission_url": "https://airaxiv.com/papers/submissions/1281/",
+  "public_paper_id": "2610.0117",
+  "author": "Taylor Kalin",
+  "author_type": "Human",
+  "submission_classification": "AI-generated",
+  "category": "Theoretical",
+  "title": "Guide-field normalization and cascade growth in collisionless magnetic-island merging",
+  "abstract_sha256": "2f4114d4815716353fc895973ca0bd3052a79b046ed2acc92b66eae788e42fe7",
+  "manuscript_version": "1.0.0",
+  "uploaded_pdf_bytes": 295498,
+  "uploaded_pdf_sha256": "dbcb34779b802d52c29f50d2cec25fb17c0ada520c653bd11f702d6d0a25324d",
+  "initial_submission_created_once": true,
+  "verification": "Authenticated existing submission1281 UI PUBLISHED; public page opened; anonymous public PDF bytes match canonical manuscript1.0.0.",
+  "public_url": "https://airaxiv.com/papers/view/2610.0117/",
+  "public_version": 1,
+  "anonymous_pdf_verification": {
+    "url": "https://airaxiv.com/papers/pdf/2610.0117/?v=1",
+    "http_status": 200,
+    "bytes": 295498,
+    "sha256": "dbcb34779b802d52c29f50d2cec25fb17c0ada520c653bd11f702d6d0a25324d",
+    "matches_canonical_bytes": true
+  }
+}

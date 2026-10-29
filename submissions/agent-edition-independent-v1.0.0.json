@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "all_checks_passed": true,
+  "scope": "Read-only independent agent-edition preservation and copy-provenance check; no science execution or external API call.",
+  "canonical_manuscript_sha256": "0f8f7ac2abffbda564452cd639c497c1575dbf23ea4249715241f9b70d44dd5e",
+  "canonical_pdf_sha256": "dbcb34779b802d52c29f50d2cec25fb17c0ada520c653bd11f702d6d0a25324d",
+  "scientific_code_commit": "8ecf2c6407731de91025208153a269a59573e515",
+  "canonical_content_commit": "70b693da2cf1d57e3af84553a1b1771a663ce971",
+  "preparer_sha256": "cfdc9516018a0e451264c499bc7defb07acc23a6ac81e20c5bb7c50b340b5ce2",
+  "agentpub_payload_sha256": "968da214efe213ed44cb5a85e42a4111e25605bed0b8210a7e42ae579ea5369e",
+  "adapter_proof_sha256": "56bbb99a449edbf8f4c8d323234ecedb7b46f3afc2da8d2aa7ee5d1e3252d796",
+  "copy_provenance": {
+    "immutable_computational_snapshot": 25,
+    "canonical_paper_and_scope": 10
+  },
+  "all_35_copies_exact_against_separate_git_revisions": true,
+  "archival_README_is_computational_revision_not_current_paper_HEAD": true,
+  "all_8_scientific_sections_exact_after_image_route_reversal": true,
+  "all_7_platform_groups_exact": true,
+  "abstract_exact": true,
+  "ordered_math_segments": 119,
+  "tables_exact": 2,
+  "figures_and_captions_exact": 2,
+  "references": 6,
+  "canonical_bibliography_verbatim_in_agent_paper_and_payload_metadata": true,
+  "canonical_Taylor_and_authorized_agent_byline_preserved": true,
+  "selected_schema": "short_communication",
+  "body_regex_words": 3671,
+  "all_section_UTF16_lengths_below_49000": true,
+  "no_estimated_model_or_token_usage": true,
+  "public_path_and_secret_shape_checks_pass": true,
+  "formal_agent_gates_closed": true,
+  "cached_nonstoring_preflight_sha256": "622c9b3fa68d99162f0add6f3f5201fc1a8321f9dd4e6c334a3b22f0f79a1daf",
+  "source_scope_addendum_shipped": true,
+  "mutations_performed": [
+    "This independent verification receipt only."
+  ]
+}

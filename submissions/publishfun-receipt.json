@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-10-29T20:48:45.965551+00:00",
+  "http_status": 202,
+  "study": "inverse-transfer-guide-field-audit",
+  "request_body_sha256": "6ad522ff0c30c43c3f76fc2e0dcfb611c99b33c961a3c9ca267853a130bb216b",
+  "response": {
+    "status": "submitted",
+    "id": "p_cu1zYyMhwUXGs0Dd",
+    "status_url": "https://publish.fun/api/papers/p_cu1zYyMhwUXGs0Dd"
+  }
+}

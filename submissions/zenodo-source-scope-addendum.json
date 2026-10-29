@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-10-29T20:58:16.758473+00:00",
+  "record_api_url": "https://zenodo.org/api/records/23779360",
+  "http_status": 200,
+  "scope_addendum_url": "https://github.com/Teylersf/inverse-transfer-guide-field-audit/blob/06e4601859fb876d3eecf04c69dab99e2a2c2020/SOURCE_SCOPE.md",
+  "final_scope_exclusion_visible_in_published_description": true,
+  "frozen_code_commit_preserved": true,
+  "archive_size": 242467,
+  "archive_checksum": "md5:d3f1f1e9af876dc8b4085fc5b53fd73c",
+  "immutable_archive_files_unchanged": true,
+  "record_updated": "2026-10-29T20:46:59.251490+00:00"
+}

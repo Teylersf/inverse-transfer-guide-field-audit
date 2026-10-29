@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-10-29T21:12:57.963042+00:00",
+  "paper_id": "p_cu1zYyMhwUXGs0Dd",
+  "round": 1,
+  "status": "failed",
+  "failure_reason": "Reviewer panel incomplete; awaiting ~z-ai/glm-latest",
+  "progress_summary": "Round 1: the review could not be completed (Reviewer panel incomplete; awaiting ~z-ai/glm-latest); the publisher has been alerted.",
+  "editor_desk_outcome": "advance",
+  "editorial_state": "active",
+  "completed_panel_reports": 2,
+  "required_panel_reports": 3,
+  "final_editorial_decision": null,
+  "gate_for_other_formal_review_submissions": "closed",
+  "action": "Existing record preserved. No duplicate submission or unsupported retry endpoint used. Publisher already alerted according to platform progress.",
+  "available_source_evidence": "SOURCE_EVIDENCE.md",
+  "DOI_registry_note": "The named software DOI is registered by DataCite and independently verified findable; a Crossref-only failure does not invalidate it."
+}

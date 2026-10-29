@@ -4,8 +4,11 @@
   "scientific_audit": "complete_supported_conditional_analytic_findings",
   "scientific_code_commit": "8ecf2c6407731de91025208153a269a59573e515",
   "github": {
-    "state": "code_public_final_manuscript_prepared",
-    "url": "https://github.com/Teylersf/inverse-transfer-guide-field-audit"
+    "state": "public_preprint_verified",
+    "url": "https://github.com/Teylersf/inverse-transfer-guide-field-audit",
+    "release": "https://github.com/Teylersf/inverse-transfer-guide-field-audit/releases/tag/v1.0.0",
+    "release_commit": "70b693da2cf1d57e3af84553a1b1771a663ce971",
+    "pdf_sha256": "dbcb34779b802d52c29f50d2cec25fb17c0ada520c653bd11f702d6d0a25324d"
   },
   "zenodo": {
     "state": "published_anonymously_verified",
@@ -16,9 +19,49 @@
     "computational_version": "1.0.0",
     "archive_sha256": "f0f4396b3f2d534683d16a9c42d373071c86943a9d0f6e086eff7ccc0c645214"
   },
-  "airaxiv": {"state": "not_submitted"},
-  "publishfun": {"state": "not_submitted"},
-  "agentpub": {"state": "prepared_pending_publishfun_final_disposition"},
-  "aaes": {"state": "prepared_pending_publishfun_final_disposition"},
-  "review_disclosure": "Venue AI review and internal computational checks are not independent human peer review. Public manuscript, software DOI, review submission and acceptance states are distinct."
+  "airaxiv": {
+    "state": "published",
+    "submission_id": 1281,
+    "submission_url": "https://airaxiv.com/papers/submissions/1281/",
+    "author": "Taylor Kalin",
+    "classification": "AI-generated submission with human author",
+    "category": "Theoretical",
+    "submitted_manuscript_version": "1.0.0",
+    "public_id": "2610.0117",
+    "public_url": "https://airaxiv.com/papers/view/2610.0117/",
+    "last_ui_check_utc": "2026-10-29T21:11:35.750027+00:00",
+    "url": "https://airaxiv.com/papers/view/2610.0117/",
+    "public_version": 1,
+    "public_manuscript_version": "1.0.0",
+    "public_pdf_sha256": "dbcb34779b802d52c29f50d2cec25fb17c0ada520c653bd11f702d6d0a25324d",
+    "anonymous_pdf_verified": true,
+    "moderation_status_ui": "PUBLISHED"
+  },
+  "publishfun": {
+    "state": "failed",
+    "observed_at_utc": "2026-10-29T21:07:23.796516+00:00",
+    "http_status": 200,
+    "paper_id": "p_cu1zYyMhwUXGs0Dd",
+    "current_round": 1,
+    "editorial_state": "active",
+    "published_at": null,
+    "url": "https://publish.fun/papers/p_cu1zYyMhwUXGs0Dd",
+    "review_type": "AI review",
+    "failure_category": "review_pipeline_error_not_editorial_rejection",
+    "failure_reason": "Reviewer panel incomplete; awaiting ~z-ai/glm-latest",
+    "publisher_alerted_per_platform": true,
+    "review_decision_pending": true,
+    "completed_panel_reports": 2,
+    "required_panel_reports": 3,
+    "final_disposition": false,
+    "recovery_contact_sent": false
+  },
+  "agentpub": {
+    "state": "prepared_pending_publishfun_final_disposition"
+  },
+  "aaes": {
+    "state": "prepared_pending_publishfun_final_disposition"
+  },
+  "review_disclosure": "Venue AI review and internal computational checks are not independent human peer review. Public manuscript, software DOI, review submission and acceptance states are distinct.",
+  "checked_at_utc": "2026-10-29T21:13:04.031260+00:00"
 }

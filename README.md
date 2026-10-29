@@ -6,6 +6,14 @@ This repository contains manuscript **1.0.0** and its computational evidence for
 
 Read the [complete paper](paper/manuscript.md), [10-page PDF](paper/main.pdf), and [final source-scope clarification](SOURCE_SCOPE.md). The verified [software/data archive](https://doi.org/10.5281/zenodo.23779360) freezes computational snapshot `8ecf2c6407731de91025208153a269a59573e515`; its files remain unchanged. [Publication status](submissions/publication-status.json) distinguishes the public manuscript, software publication, venue review and acceptance.
 
+[Primary-source excerpts and archive evidence](SOURCE_EVIDENCE.md) reproduce the
+printed conversion and equilibrium sentence with attribution. They also provide
+direct DataCite and ZIP access for readers whose search service checks only
+Crossref. The paper is public as [AiraXiv 2610.0117v1](https://airaxiv.com/papers/view/2610.0117/);
+its anonymous PDF matches the canonical file. Publish.fun round 1 has a reviewer
+pipeline failure and no final editorial decision. This is not an acceptance or
+rejection. The existing record is retained without a duplicate submission.
+
 The package checks four distinctions within the source's stated assumptions:
 
 - Total-field decay and reconnecting in-plane decay give different merger-scale gains when a constant guide field is present. The scalar firehose-accessibility criterion remains unchanged.

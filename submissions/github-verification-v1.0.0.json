@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T20:48:23.606956+00:00",
+  "repository": {
+    "url": "https://github.com/Teylersf/inverse-transfer-guide-field-audit",
+    "private": false,
+    "visibility": "public"
+  },
+  "release": {
+    "url": "https://github.com/Teylersf/inverse-transfer-guide-field-audit/releases/tag/v1.0.0",
+    "tag": "v1.0.0",
+    "target_commitish": "70b693da2cf1d57e3af84553a1b1771a663ce971",
+    "resolved_commit": "70b693da2cf1d57e3af84553a1b1771a663ce971",
+    "remote_tag_commit_verified": true,
+    "published_at": "2026-10-29T20:48:21Z",
+    "draft": false
+  },
+  "release_PDF": {
+    "url": "https://github.com/Teylersf/inverse-transfer-guide-field-audit/releases/download/v1.0.0/main.pdf",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 295498,
+    "sha256": "dbcb34779b802d52c29f50d2cec25fb17c0ada520c653bd11f702d6d0a25324d",
+    "final_host": "release-assets.githubusercontent.com",
+    "checked_at_utc": "2026-10-29T20:48:24.328858+00:00",
+    "matches_frozen_local_bytes": true
+  },
+  "pinned_manuscript": {
+    "url": "https://raw.githubusercontent.com/Teylersf/inverse-transfer-guide-field-audit/70b693da2cf1d57e3af84553a1b1771a663ce971/paper/manuscript.md",
+    "http_status": 200,
+    "content_type": "text/plain",
+    "bytes": 27837,
+    "sha256": "0f8f7ac2abffbda564452cd639c497c1575dbf23ea4249715241f9b70d44dd5e",
+    "final_host": "raw.githubusercontent.com",
+    "checked_at_utc": "2026-10-29T20:48:24.768896+00:00",
+    "matches_frozen_local_bytes": true
+  },
+  "scientific_code_commit": "8ecf2c6407731de91025208153a269a59573e515",
+  "Publish_fun_figure_URLs": [
+    {
+      "url": "https://raw.githubusercontent.com/Teylersf/inverse-transfer-guide-field-audit/8ecf2c6407731de91025208153a269a59573e515/figures/model-scale-conversion.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 130212,
+      "sha256": "012c9f9f5c4a804af4fa1309d9b00871d570fd689df693fde8df79e816ff4c2e",
+      "final_host": "raw.githubusercontent.com",
+      "checked_at_utc": "2026-10-29T20:48:25.063268+00:00",
+      "matches_frozen_local_bytes": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Teylersf/inverse-transfer-guide-field-audit/8ecf2c6407731de91025208153a269a59573e515/figures/total-versus-in-plane.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 83785,
+      "sha256": "2448dccd2d968232faed7246c0c72a0cb63fb50776045ae419c8ebc646994767",
+      "final_host": "raw.githubusercontent.com",
+      "checked_at_utc": "2026-10-29T20:48:25.441231+00:00",
+      "matches_frozen_local_bytes": true
+    }
+  ]
+}

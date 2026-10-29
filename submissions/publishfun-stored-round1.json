@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T20:58:16.189300+00:00",
+  "paper_id": "p_cu1zYyMhwUXGs0Dd",
+  "round": 1,
+  "exact_stored_fields": {
+    "title": true,
+    "abstract": true,
+    "keywords": true,
+    "content_md": true
+  },
+  "submitted_body_sha256": "f51488d28904a06930d2df9b5059b792a0d999396958d3de281987d29f9aa746",
+  "stored_body_sha256": "f51488d28904a06930d2df9b5059b792a0d999396958d3de281987d29f9aa746",
+  "main_science_exact_after_image_URL_normalization": true,
+  "image_checks": [
+    {
+      "public_url": "https://files.publish.fun/uploads/up_v7W_Zp21SkNt5X3a/figures/figure-1.png",
+      "http_status": 200,
+      "served_bytes": 145580,
+      "served_sha256": "41e69878634cf1bff537e4776b16534c3a60cd87c5b50e3c98cb7b1679a1db22",
+      "local_file": "figures/model-scale-conversion.png",
+      "dimensions": [
+        1480,
+        1460
+      ],
+      "decoded_RGBA_pixels_identical": true
+    },
+    {
+      "public_url": "https://files.publish.fun/uploads/up_v7W_Zp21SkNt5X3a/figures/figure-2.png",
+      "http_status": 200,
+      "served_bytes": 92202,
+      "served_sha256": "feb38dd8da05fad7291cbfd9da343e79f18485a1f531de048c69e5f1c3652ce5",
+      "local_file": "figures/total-versus-in-plane.png",
+      "dimensions": [
+        1480,
+        880
+      ],
+      "decoded_RGBA_pixels_identical": true
+    }
+  ],
+  "status_observed": "under_review",
+  "acceptance_claimed": false
+}
