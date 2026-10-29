@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "all_checks_passed": true,
+  "scope": "Independent deterministic checks of a conditional constant-guide, fixed-density averaged CGL prescription; no PIC evolution or kinetic dispersion calculation.",
+  "verification_method": "85-digit Decimal arithmetic; direct in-plane-squared threshold equation and bisection; independent high-precision centered differences; no producer import or execution.",
+  "verifier": {
+    "path": "experiments/verify_drive_outputs_independently.py",
+    "sha256": "eb3a8506cf767e71afd139d08ae2347b9c95cd786826c22251090154770d1066"
+  },
+  "input_bindings": [
+    {
+      "path": "experiments/verify_finite_guide_drive.py",
+      "bytes": 4298,
+      "sha256": "b98b6731d14dae607f8003a3a196bfcab5dae442ba955e1eb5d4e712c63873ec"
+    },
+    {
+      "path": "results/finite-guide-drive.json",
+      "bytes": 9566,
+      "sha256": "d4d5c5648b4e8913481e65d058c774878cc2388efdf62d7bdb93bf64ab089280"
+    },
+    {
+      "path": "results/finite-guide-generation.csv",
+      "bytes": 373,
+      "sha256": "23d64d3c9c3ea7a6ce1c7f12bfa8cff158dabe3641351da3dda58e9f65dce2f7"
+    }
+  ],
+  "counts": {
+    "one_generation_cases": 3,
+    "power_law_derivative_checks": 9,
+    "crossing_examples": 12,
+    "inaccessible_crossings": 1,
+    "CSV_rows": 3
+  },
+  "one_generation_checks": [
+    {
+      "b": 0.0,
+      "independent_Q_factor": 0.3535533905932738,
+      "initial_chi": 1.0,
+      "pass": true
+    },
+    {
+      "b": 1.0,
+      "independent_Q_factor": 0.7607257743127307,
+      "initial_chi": 0.3333333333333333,
+      "pass": true
+    },
+    {
+      "b": 2.0,
+      "independent_Q_factor": 0.9178350204849084,
+      "initial_chi": 0.1111111111111111,
+      "pass": true
+    }
+  ],
+  "power_law_derivative_checks": [
+    {
+      "b": 0.0,
+      "u": 1.0,
+      "independent_dlnQ_d_u": -1.2600000000000042,
+      "absolute_error_vs_analytic": 4.200000000000025e-15,
+      "pass": true
+    },
+    {
+      "b": 0.0,
+      "u": 2.0,
+      "independent_dlnQ_d_u": -0.6300000000000021,
+      "absolute_error_vs_analytic": 2.1000000000000124e-15,
+      "pass": true
+    },
+    {
+      "b": 0.0,
+      "u": 10.0,
+      "independent_dlnQ_d_u": -0.12600000000000042,
+      "absolute_error_vs_analytic": 4.2000000000000254e-16,
+      "pass": true
+    },
+    {
+      "b": 1.0,
+      "u": 1.0,
+      "independent_dlnQ_d_u": -0.4200000000000027,
+      "absolute_error_vs_analytic": 2.6857600000000194e-15,
+      "pass": true
+    },
+    {
+      "b": 1.0,
+      "u": 2.0,
+      "independent_dlnQ_d_u": -0.13755157332263218,
+      "absolute_error_vs_analytic": 9.813142627511918e-16,
+      "pass": true
+    },
+    {
+      "b": 1.0,
+      "u": 10.0,
+      "independent_dlnQ_d_u": -0.008492500646334545,
+      "absolute_error_vs_analytic": 6.963124238712975e-17,
+      "pass": true
+    },
+    {
+      "b": 2.0,
+      "u": 1.0,
+      "independent_dlnQ_d_u": -0.1400000000000011,
+      "absolute_error_vs_analytic": 1.103158518518528e-15,
+      "pass": true
+    },
+    {
+      "b": 2.0,
+      "u": 2.0,
+      "independent_dlnQ_d_u": -0.0411216386865365,
+      "absolute_error_vs_analytic": 3.37811324710473e-16,
+      "pass": true
+    },
+    {
+      "b": 2.0,
+      "u": 10.0,
+      "independent_dlnQ_d_u": -0.0022361646229259523,
+      "absolute_error_vs_analytic": 1.9170466474486035e-17,
+      "pass": true
+    }
+  ],
+  "crossing_checks": [
+    {
+      "b": 0.0,
+      "beta0": 3.0,
+      "beta_chi0": 3.0,
+      "independent_exact_model_delta_u": 0.4327808518894368,
+      "local_first_order_delta_u": 0.5291005291005291,
+      "relative_approximation_error": 0.22255993256304973,
+      "finite_crossing": true,
+      "pass": true
+    },
+    {
+      "b": 0.0,
+      "beta0": 10.0,
+      "beta_chi0": 10.0,
+      "independent_exact_model_delta_u": 0.1471208330840739,
+      "local_first_order_delta_u": 0.15873015873015872,
+      "relative_approximation_error": 0.07891014075110997,
+      "finite_crossing": true,
+      "pass": true
+    },
+    {
+      "b": 0.0,
+      "beta0": 100.0,
+      "beta_chi0": 100.0,
+      "independent_exact_model_delta_u": 0.015737187311790444,
+      "local_first_order_delta_u": 0.015873015873015872,
+      "relative_approximation_error": 0.008631057032895958,
+      "finite_crossing": true,
+      "pass": true
+    },
+    {
+      "b": 0.0,
+      "beta0": 10000.0,
+      "beta_chi0": 10000.0,
+      "independent_exact_model_delta_u": 0.00015871630415115399,
+      "local_first_order_delta_u": 0.00015873015873015873,
+      "relative_approximation_error": 8.72914668649881e-05,
+      "finite_crossing": true,
+      "pass": true
+    },
+    {
+      "b": 1.0,
+      "beta0": 3.0,
+      "beta_chi0": 1.0,
+      "independent_exact_model_delta_u": 5.136644246946794,
+      "local_first_order_delta_u": 1.5873015873015872,
+      "relative_approximation_error": 0.6909847147298405,
+      "finite_crossing": true,
+      "pass": true
+    },
+    {
+      "b": 1.0,
+      "beta0": 10.0,
+      "beta_chi0": 3.3333333333333335,
+      "independent_exact_model_delta_u": 0.6014182806005858,
+      "local_first_order_delta_u": 0.47619047619047616,
+      "relative_approximation_error": 0.20822081477978208,
+      "finite_crossing": true,
+      "pass": true
+    },
+    {
+      "b": 1.0,
+      "beta0": 100.0,
+      "beta_chi0": 33.333333333333336,
+      "independent_exact_model_delta_u": 0.048616955197720434,
+      "local_first_order_delta_u": 0.047619047619047616,
+      "relative_approximation_error": 0.0205259168249929,
+      "finite_crossing": true,
+      "pass": true
+    },
+    {
+      "b": 1.0,
+      "beta0": 10000.0,
+      "beta_chi0": 3333.3333333333335,
+      "independent_exact_model_delta_u": 0.000476288004294493,
+      "local_first_order_delta_u": 0.0004761904761904762,
+      "relative_approximation_error": 0.0002047670802904987,
+      "finite_crossing": true,
+      "pass": true
+    },
+    {
+      "b": 2.0,
+      "beta0": 3.0,
+      "beta_chi0": 0.3333333333333333,
+      "independent_exact_model_delta_u": null,
+      "local_first_order_delta_u": 4.761904761904762,
+      "relative_approximation_error": null,
+      "finite_crossing": false,
+      "pass": true
+    },
+    {
+      "b": 2.0,
+      "beta0": 10.0,
+      "beta_chi0": 1.1111111111111112,
+      "independent_exact_model_delta_u": 104.75118545592525,
+      "local_first_order_delta_u": 1.4285714285714286,
+      "relative_approximation_error": 0.9863622409392921,
+      "finite_crossing": true,
+      "pass": true
+    },
+    {
+      "b": 2.0,
+      "beta0": 100.0,
+      "beta_chi0": 11.11111111111111,
+      "independent_exact_model_delta_u": 0.16009636391253304,
+      "local_first_order_delta_u": 0.14285714285714285,
+      "relative_approximation_error": 0.1076802785153113,
+      "finite_crossing": true,
+      "pass": true
+    },
+    {
+      "b": 2.0,
+      "beta0": 10000.0,
+      "beta_chi0": 1111.111111111111,
+      "independent_exact_model_delta_u": 0.0014301172609575358,
+      "local_first_order_delta_u": 0.0014285714285714286,
+      "relative_approximation_error": 0.0010809130330139102,
+      "finite_crossing": true,
+      "pass": true
+    }
+  ],
+  "source_locators": {
+    "journal_doi": "10.3847/2041-8213/ae247e",
+    "drive": "Section 4, p.5, text immediately preceding Eq.(3)",
+    "normalization": "Section 4, p.5, Eqs.(5)\u2013(6)",
+    "conditional_CGL_model": "Appendix C, pp.8\u20139"
+  },
+  "qualified_interpretation": [
+    "Q_next/Q=(1-chi/2)^(3/2) is exact within the imposed field/CGL prescription; the printed 2^(-3/2) is its zero-guide limit.",
+    "The local first-order crossing time needs beta*chi much greater than one and slowly varying beta, chi and drive, rather than high beta alone.",
+    "The speed multiplier chi^(-1/2) and combined chi^(-3/2) apply only with total-field beta and in-plane Alfven speed under consistent thermal/mass-density conventions.",
+    "No universal replacement of journal Eq.(6), measured kinetic growth rate, actual saturation or corrected PIC spectrum is established.",
+    "The independent scalar G accessibility criterion remains unchanged."
+  ]
+}

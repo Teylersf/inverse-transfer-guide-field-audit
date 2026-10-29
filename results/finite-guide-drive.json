@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "scope": "Algebra of the same constant-guide, fixed-density averaged CGL prescription; no kinetic dispersion solution or PIC run.",
+  "source_journal_doi": "10.3847/2041-8213/ae247e",
+  "source_locators": [
+    "Section4 p5, paragraph beforeEq3",
+    "Section4 p5 Eqs3\u20136",
+    "AppendixC pp8\u20139"
+  ],
+  "script_sha256": "b98b6731d14dae607f8003a3a196bfcab5dae442ba955e1eb5d4e712c63873ec",
+  "alpha": 0.42,
+  "one_generation_cases": [
+    {
+      "b": 0.0,
+      "chi0": 1.0,
+      "exact_one_merger_Q_factor": 0.3535533905932738,
+      "printed_guide_independent_factor": 0.3535533905932738,
+      "vth_over_vAin_guide_multiplier": 1.0,
+      "local_drive_growth_guide_multiplier": 1.0
+    },
+    {
+      "b": 1.0,
+      "chi0": 0.3333333333333333,
+      "exact_one_merger_Q_factor": 0.7607257743127308,
+      "printed_guide_independent_factor": 0.3535533905932738,
+      "vth_over_vAin_guide_multiplier": 1.7320508075688774,
+      "local_drive_growth_guide_multiplier": 5.196152422706632
+    },
+    {
+      "b": 2.0,
+      "chi0": 0.1111111111111111,
+      "exact_one_merger_Q_factor": 0.9178350204849084,
+      "printed_guide_independent_factor": 0.3535533905932738,
+      "vth_over_vAin_guide_multiplier": 3.0,
+      "local_drive_growth_guide_multiplier": 27.000000000000004
+    }
+  ],
+  "power_law_derivative_checks": [
+    {
+      "b": 0.0,
+      "u": 1.0,
+      "chi": 1.0,
+      "dlnQ_d_u": -1.26,
+      "central_difference": -1.2600000000434346,
+      "absolute_difference": 4.3434589258595224e-11
+    },
+    {
+      "b": 0.0,
+      "u": 2.0,
+      "chi": 1.0,
+      "dlnQ_d_u": -0.63,
+      "central_difference": -0.6300000000181161,
+      "absolute_difference": 1.8116064204320992e-11
+    },
+    {
+      "b": 0.0,
+      "u": 10.0,
+      "chi": 1.0,
+      "dlnQ_d_u": -0.126,
+      "central_difference": -0.12600000000473344,
+      "absolute_difference": 4.733435865489355e-12
+    },
+    {
+      "b": 1.0,
+      "u": 1.0,
+      "chi": 0.3333333333333333,
+      "dlnQ_d_u": -0.42,
+      "central_difference": -0.42000000004398913,
+      "absolute_difference": 4.398914565939549e-11
+    },
+    {
+      "b": 1.0,
+      "u": 2.0,
+      "chi": 0.21833583067084322,
+      "dlnQ_d_u": -0.13755157332263124,
+      "central_difference": -0.13755157333150692,
+      "absolute_difference": 8.875677970365814e-12
+    },
+    {
+      "b": 1.0,
+      "u": 10.0,
+      "chi": 0.06740079878043236,
+      "dlnQ_d_u": -0.008492500646334476,
+      "central_difference": -0.008492500647716561,
+      "absolute_difference": 1.3820854183332898e-12
+    },
+    {
+      "b": 2.0,
+      "u": 1.0,
+      "chi": 0.1111111111111111,
+      "dlnQ_d_u": -0.13999999999999999,
+      "central_difference": -0.14000000001674207,
+      "absolute_difference": 1.6742079944620514e-11
+    },
+    {
+      "b": 2.0,
+      "u": 2.0,
+      "chi": 0.06527244235958121,
+      "dlnQ_d_u": -0.04112163868653616,
+      "central_difference": -0.04112163869002261,
+      "absolute_difference": 3.486447242018187e-12
+    },
+    {
+      "b": 2.0,
+      "u": 10.0,
+      "chi": 0.01774733827718995,
+      "dlnQ_d_u": -0.0022361646229259336,
+      "central_difference": -0.0022361646240254274,
+      "absolute_difference": 1.09949375992624e-12
+    }
+  ],
+  "local_vs_exact_model_crossing": [
+    {
+      "b": 0.0,
+      "beta0": 3.0,
+      "chi0": 1.0,
+      "beta_chi0": 3.0,
+      "inverse_asymptotic_parameter": 0.3333333333333333,
+      "exact_model_crossing_delta_u": 0.4327808518894365,
+      "local_first_order_delta_u": 0.5291005291005291,
+      "relative_approximation_error": 0.2225599325630505,
+      "first_order_scope": "Short interval requires beta0*chi0 much greater than1; no numerical validity threshold asserted."
+    },
+    {
+      "b": 0.0,
+      "beta0": 10.0,
+      "chi0": 1.0,
+      "beta_chi0": 10.0,
+      "inverse_asymptotic_parameter": 0.1,
+      "exact_model_crossing_delta_u": 0.14712083308407387,
+      "local_first_order_delta_u": 0.15873015873015872,
+      "relative_approximation_error": 0.07891014075111014,
+      "first_order_scope": "Short interval requires beta0*chi0 much greater than1; no numerical validity threshold asserted."
+    },
+    {
+      "b": 0.0,
+      "beta0": 100.0,
+      "chi0": 1.0,
+      "beta_chi0": 100.0,
+      "inverse_asymptotic_parameter": 0.01,
+      "exact_model_crossing_delta_u": 0.015737187311790635,
+      "local_first_order_delta_u": 0.015873015873015872,
+      "relative_approximation_error": 0.008631057032883582,
+      "first_order_scope": "Short interval requires beta0*chi0 much greater than1; no numerical validity threshold asserted."
+    },
+    {
+      "b": 0.0,
+      "beta0": 10000.0,
+      "chi0": 1.0,
+      "beta_chi0": 10000.0,
+      "inverse_asymptotic_parameter": 0.0001,
+      "exact_model_crossing_delta_u": 0.00015871630415098537,
+      "local_first_order_delta_u": 0.00015873015873015873,
+      "relative_approximation_error": 8.72914679275194e-05,
+      "first_order_scope": "Short interval requires beta0*chi0 much greater than1; no numerical validity threshold asserted."
+    },
+    {
+      "b": 1.0,
+      "beta0": 3.0,
+      "chi0": 0.3333333333333333,
+      "beta_chi0": 1.0,
+      "inverse_asymptotic_parameter": 1.0,
+      "exact_model_crossing_delta_u": 5.13664424694679,
+      "local_first_order_delta_u": 1.5873015873015872,
+      "relative_approximation_error": 0.6909847147298402,
+      "first_order_scope": "Short interval requires beta0*chi0 much greater than1; no numerical validity threshold asserted."
+    },
+    {
+      "b": 1.0,
+      "beta0": 10.0,
+      "chi0": 0.3333333333333333,
+      "beta_chi0": 3.333333333333333,
+      "inverse_asymptotic_parameter": 0.30000000000000004,
+      "exact_model_crossing_delta_u": 0.6014182806005857,
+      "local_first_order_delta_u": 0.4761904761904763,
+      "relative_approximation_error": 0.20822081477978183,
+      "first_order_scope": "Short interval requires beta0*chi0 much greater than1; no numerical validity threshold asserted."
+    },
+    {
+      "b": 1.0,
+      "beta0": 100.0,
+      "chi0": 0.3333333333333333,
+      "beta_chi0": 33.33333333333333,
+      "inverse_asymptotic_parameter": 0.030000000000000006,
+      "exact_model_crossing_delta_u": 0.048616955197721134,
+      "local_first_order_delta_u": 0.047619047619047616,
+      "relative_approximation_error": 0.02052591682500704,
+      "first_order_scope": "Short interval requires beta0*chi0 much greater than1; no numerical validity threshold asserted."
+    },
+    {
+      "b": 1.0,
+      "beta0": 10000.0,
+      "chi0": 0.3333333333333333,
+      "beta_chi0": 3333.333333333333,
+      "inverse_asymptotic_parameter": 0.00030000000000000003,
+      "exact_model_crossing_delta_u": 0.00047628800429388995,
+      "local_first_order_delta_u": 0.0004761904761904762,
+      "relative_approximation_error": 0.0002047670790247258,
+      "first_order_scope": "Short interval requires beta0*chi0 much greater than1; no numerical validity threshold asserted."
+    },
+    {
+      "b": 2.0,
+      "beta0": 3.0,
+      "chi0": 0.1111111111111111,
+      "beta_chi0": 0.3333333333333333,
+      "inverse_asymptotic_parameter": 3.0,
+      "exact_model_crossing_delta_u": null,
+      "local_first_order_delta_u": 4.761904761904762,
+      "relative_approximation_error": null,
+      "first_order_scope": "Short interval requires beta0*chi0 much greater than1; no numerical validity threshold asserted."
+    },
+    {
+      "b": 2.0,
+      "beta0": 10.0,
+      "chi0": 0.1111111111111111,
+      "beta_chi0": 1.1111111111111112,
+      "inverse_asymptotic_parameter": 0.8999999999999999,
+      "exact_model_crossing_delta_u": 104.75118545592734,
+      "local_first_order_delta_u": 1.4285714285714286,
+      "relative_approximation_error": 0.9863622409392925,
+      "first_order_scope": "Short interval requires beta0*chi0 much greater than1; no numerical validity threshold asserted."
+    },
+    {
+      "b": 2.0,
+      "beta0": 100.0,
+      "chi0": 0.1111111111111111,
+      "beta_chi0": 11.11111111111111,
+      "inverse_asymptotic_parameter": 0.09,
+      "exact_model_crossing_delta_u": 0.16009636391253346,
+      "local_first_order_delta_u": 0.14285714285714285,
+      "relative_approximation_error": 0.10768027851531359,
+      "first_order_scope": "Short interval requires beta0*chi0 much greater than1; no numerical validity threshold asserted."
+    },
+    {
+      "b": 2.0,
+      "beta0": 10000.0,
+      "chi0": 0.1111111111111111,
+      "beta_chi0": 1111.111111111111,
+      "inverse_asymptotic_parameter": 0.0009,
+      "exact_model_crossing_delta_u": 0.0014301172609569868,
+      "local_first_order_delta_u": 0.0014285714285714286,
+      "relative_approximation_error": 0.0010809130326304706,
+      "first_order_scope": "Short interval requires beta0*chi0 much greater than1; no numerical validity threshold asserted."
+    }
+  ],
+  "limits": [
+    "The first-order crossing estimate needs nearly fixed beta, chi and drive during a short interval.",
+    "The scalar G accessibility criterion remains separate and unchanged.",
+    "The thermal-speed/Alfven-speed relation is a proportional scaling with convention-dependent order-one constants.",
+    "Actual kinetic growth integrated over an actual evolving distribution has not been measured.",
+    "No universal corrected beta-only arrest criterion is asserted."
+  ]
+}

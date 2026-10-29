@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "scope": "Conditional algebra within the published averaged CGL and merger scalings; no new kinetic simulation.",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "source_script_sha256": "7e2fe5136f97a83fa1bc72898195a237a36ab1195f7a62791c57a0b7cc314ad8",
+  "source_journal_doi": "10.3847/2041-8213/ae247e",
+  "cases": [
+    {
+      "b": 0,
+      "beta0": 10.8,
+      "alpha": 0.42,
+      "total_field_ratio": 0.9475369903395685,
+      "minimum_total_field_ratio": 0.0,
+      "beta_critical": 0.0,
+      "firehose_polynomial_residual": 0.0,
+      "G": -1.0,
+      "finite_model_crossing": true,
+      "inverse_total_field_ratio": 1.0553677694858439,
+      "in_plane_field_ratio": 0.9475369903395685,
+      "corrected_merger_scale_gain": 1.0553677694858439,
+      "u_at_model_crossing": 1.136902960240107,
+      "independent_quartic_root_difference": 4.440892098500626e-16
+    },
+    {
+      "b": 1,
+      "beta0": 3,
+      "alpha": 0.42,
+      "total_field_ratio": 0.8598139699260687,
+      "minimum_total_field_ratio": 0.816496580927726,
+      "beta_critical": 1.9507339628865061,
+      "firehose_polynomial_residual": 0.0,
+      "G": -0.15937264975188636,
+      "finite_model_crossing": true,
+      "inverse_total_field_ratio": 1.1630422800480726,
+      "in_plane_field_ratio": 0.4667335306575689,
+      "corrected_merger_scale_gain": 2.1425501583122295,
+      "u_at_model_crossing": 6.13664424694679,
+      "independent_quartic_root_difference": 2.220446049250313e-16
+    },
+    {
+      "b": 1,
+      "beta0": 2,
+      "alpha": 0.42,
+      "total_field_ratio": 0.8191725133961645,
+      "minimum_total_field_ratio": 0.816496580927726,
+      "beta_critical": 1.9507339628865061,
+      "firehose_polynomial_residual": 0.0,
+      "G": -0.011224501603738224,
+      "finite_model_crossing": true,
+      "inverse_total_field_ratio": 1.2207440846057593,
+      "in_plane_field_ratio": 0.11458979060705002,
+      "corrected_merger_scale_gain": 8.72678093486695,
+      "u_at_model_crossing": 173.83160818842697,
+      "independent_quartic_root_difference": 2.220446049250313e-16
+    },
+    {
+      "b": 2,
+      "beta0": 10,
+      "alpha": 0.42,
+      "total_field_ratio": 0.9439829490385658,
+      "minimum_total_field_ratio": 0.9428090415820634,
+      "beta_critical": 9.757771698525495,
+      "firehose_polynomial_residual": 0.0,
+      "G": -0.003922827235696813,
+      "finite_model_crossing": true,
+      "inverse_total_field_ratio": 1.059341168204878,
+      "in_plane_field_ratio": 0.14118878383188815,
+      "corrected_merger_scale_gain": 7.08271558731385,
+      "u_at_model_crossing": 105.75118545592734,
+      "independent_quartic_root_difference": 1.1102230246251565e-15
+    },
+    {
+      "b": 2,
+      "beta0": 100,
+      "alpha": 0.42,
+      "total_field_ratio": 0.9934633081782207,
+      "minimum_total_field_ratio": 0.9428090415820634,
+      "beta_critical": 9.757771698525495,
+      "firehose_polynomial_residual": -2.220446049250313e-16,
+      "G": -0.14614504945791895,
+      "finite_model_crossing": true,
+      "inverse_total_field_ratio": 1.0065797013014663,
+      "in_plane_field_ratio": 0.939533981433205,
+      "corrected_merger_scale_gain": 1.064357457805366,
+      "u_at_model_crossing": 1.1600963639125335,
+      "independent_quartic_root_difference": 1.5543122344752192e-15
+    },
+    {
+      "b": 1,
+      "beta0": 1,
+      "alpha": 0.42,
+      "total_field_ratio": 0.7389836215045062,
+      "minimum_total_field_ratio": 0.816496580927726,
+      "beta_critical": 1.9507339628865061,
+      "firehose_polynomial_residual": 0.0,
+      "G": 0.4332199428407062,
+      "finite_model_crossing": false,
+      "inverse_total_field_ratio": 1.3532099641993245,
+      "in_plane_field_ratio": null,
+      "corrected_merger_scale_gain": null,
+      "u_at_model_crossing": null,
+      "independent_quartic_root_difference": 2.220446049250313e-16
+    },
+    {
+      "b": 2,
+      "beta0": 1,
+      "alpha": 0.42,
+      "total_field_ratio": 0.7389836215045062,
+      "minimum_total_field_ratio": 0.9428090415820634,
+      "beta_critical": 9.757771698525495,
+      "firehose_polynomial_residual": 0.0,
+      "G": 1.4182993949865255,
+      "finite_model_crossing": false,
+      "inverse_total_field_ratio": 1.3532099641993245,
+      "in_plane_field_ratio": null,
+      "corrected_merger_scale_gain": null,
+      "u_at_model_crossing": null,
+      "independent_quartic_root_difference": 2.220446049250313e-16
+    },
+    {
+      "b": 1,
+      "beta0": 1.970241302515371,
+      "alpha": 0.42,
+      "total_field_ratio": 0.8175663891219025,
+      "minimum_total_field_ratio": 0.816496580927726,
+      "beta_critical": 1.9507339628865061,
+      "firehose_polynomial_residual": 4.440892098500626e-16,
+      "G": -0.004511573723249285,
+      "finite_model_crossing": true,
+      "inverse_total_field_ratio": 1.2231422589106655,
+      "in_plane_field_ratio": 0.07241824262903673,
+      "corrected_merger_scale_gain": 13.808675324013471,
+      "u_at_model_crossing": 518.379314276967,
+      "independent_quartic_root_difference": 0.0
+    },
+    {
+      "b": 1,
+      "beta0": 1.9509290362827947,
+      "alpha": 0.42,
+      "total_field_ratio": 0.8165073466683885,
+      "minimum_total_field_ratio": 0.816496580927726,
+      "beta_critical": 1.9507339628865061,
+      "firehose_polynomial_residual": -2.220446049250313e-16,
+      "G": -4.556233837094137e-05,
+      "finite_model_crossing": true,
+      "inverse_total_field_ratio": 1.2247287229935166,
+      "in_plane_field_ratio": 0.007262333671482282,
+      "corrected_merger_scale_gain": 137.696785253313,
+      "u_at_model_crossing": 123787.19354249831,
+      "independent_quartic_root_difference": 1.1102230246251565e-16
+    },
+    {
+      "b": 1,
+      "beta0": 1.950735913620469,
+      "alpha": 0.42,
+      "total_field_ratio": 0.8164966885919451,
+      "minimum_total_field_ratio": 0.816496580927726,
+      "beta_critical": 1.9507339628865061,
+      "firehose_polynomial_residual": -1.1102230246251565e-16,
+      "G": -4.5566849027345313e-07,
+      "finite_model_crossing": true,
+      "inverse_total_field_ratio": 1.2247447098952817,
+      "in_plane_field_ratio": 0.00072625397442159,
+      "corrected_merger_scale_gain": 1376.928781417588,
+      "u_at_model_crossing": 29757658.600638937,
+      "independent_quartic_root_difference": 1.1102230246251565e-16
+    },
+    {
+      "b": 2,
+      "beta0": 9.85534941551075,
+      "alpha": 0.42,
+      "total_field_ratio": 0.943287849006764,
+      "minimum_total_field_ratio": 0.9428090415820634,
+      "beta_critical": 9.757771698525495,
+      "firehose_polynomial_residual": -2.220446049250313e-16,
+      "G": -0.0016034407781556625,
+      "finite_model_crossing": true,
+      "inverse_total_field_ratio": 1.0601217868468793,
+      "in_plane_field_ratio": 0.09015372845461431,
+      "corrected_merger_scale_gain": 11.092164651885978,
+      "u_at_model_crossing": 307.70465455989,
+      "independent_quartic_root_difference": 9.992007221626409e-16
+    },
+    {
+      "b": 2,
+      "beta0": 9.758747475695348,
+      "alpha": 0.42,
+      "total_field_ratio": 0.9428138700171467,
+      "minimum_total_field_ratio": 0.9428090415820634,
+      "beta_critical": 9.757771698525495,
+      "firehose_polynomial_residual": 0.0,
+      "G": -1.61931325460829e-05,
+      "finite_model_crossing": true,
+      "inverse_total_field_ratio": 1.0606547398181714,
+      "in_plane_field_ratio": 0.009052152803743344,
+      "corrected_merger_scale_gain": 110.47095886256685,
+      "u_at_model_crossing": 73261.61442966558,
+      "independent_quartic_root_difference": 3.3306690738754696e-16
+    },
+    {
+      "b": 2,
+      "beta0": 9.757781456297193,
+      "alpha": 0.42,
+      "total_field_ratio": 0.9428090898704851,
+      "minimum_total_field_ratio": 0.9428090415820634,
+      "beta_critical": 9.757771698525495,
+      "firehose_polynomial_residual": 4.440892098500626e-16,
+      "G": -1.6194735663610516e-07,
+      "finite_model_crossing": true,
+      "inverse_total_field_ratio": 1.0606601174553496,
+      "in_plane_field_ratio": 0.0009052522913167112,
+      "corrected_merger_scale_gain": 1104.664422937252,
+      "u_at_model_crossing": 17611104.28144823,
+      "independent_quartic_root_difference": 1.4432899320127035e-15
+    }
+  ],
+  "force_balance": {
+    "normalized_units": "curl B=J; pair scalar pressure=2nT",
+    "grid": [
+      128,
+      128
+    ],
+    "domain_lengths": [
+      6.283185307179586,
+      6.283185307179586
+    ],
+    "constant_guide_cases": [
+      {
+        "constant_guide_amplitude": 0.0,
+        "max_component_force_residual": 1.3933298959045715e-14
+      },
+      {
+        "constant_guide_amplitude": 0.5,
+        "max_component_force_residual": 1.3933298959045715e-14
+      },
+      {
+        "constant_guide_amplitude": 1.0,
+        "max_component_force_residual": 1.3933298959045715e-14
+      },
+      {
+        "constant_guide_amplitude": 2.0,
+        "max_component_force_residual": 1.3933298959045715e-14
+      }
+    ],
+    "nonuniform_guide_negative_control_max_residual": 0.05000000000000027,
+    "scope": "Initial scalar-MHD force balance only; no kinetic equilibrium, stability or transient diagnosis."
+  },
+  "time_exponent_checks": [
+    {
+      "b": 0.0,
+      "u": 1.0,
+      "alpha": 0.42,
+      "in_plane_merger_scale_gain": 1.0,
+      "inverse_total_ratio_consistent_with_C7_C8": 1.0,
+      "printed_C11_time_expression": 1.0
+    },
+    {
+      "b": 0.0,
+      "u": 2.0,
+      "alpha": 0.42,
+      "in_plane_merger_scale_gain": 1.337927554786112,
+      "inverse_total_ratio_consistent_with_C7_C8": 1.337927554786112,
+      "printed_C11_time_expression": 1.1566881839052874
+    },
+    {
+      "b": 0.0,
+      "u": 10.0,
+      "alpha": 0.42,
+      "in_plane_merger_scale_gain": 2.6302679918953817,
+      "inverse_total_ratio_consistent_with_C7_C8": 2.6302679918953817,
+      "printed_C11_time_expression": 1.62181009735893
+    },
+    {
+      "b": 0.0,
+      "u": 100.0,
+      "alpha": 0.42,
+      "in_plane_merger_scale_gain": 6.918309709189364,
+      "inverse_total_ratio_consistent_with_C7_C8": 6.918309709189365,
+      "printed_C11_time_expression": 2.6302679918953817
+    },
+    {
+      "b": 1.0,
+      "u": 1.0,
+      "alpha": 0.42,
+      "in_plane_merger_scale_gain": 1.0,
+      "inverse_total_ratio_consistent_with_C7_C8": 1.0,
+      "printed_C11_time_expression": 1.0
+    },
+    {
+      "b": 1.0,
+      "u": 2.0,
+      "alpha": 0.42,
+      "in_plane_merger_scale_gain": 1.337927554786112,
+      "inverse_total_ratio_consistent_with_C7_C8": 1.0828186616390278,
+      "printed_C11_time_expression": 1.0449553508180593
+    },
+    {
+      "b": 1.0,
+      "u": 10.0,
+      "alpha": 0.42,
+      "in_plane_merger_scale_gain": 2.6302679918953817,
+      "inverse_total_ratio_consistent_with_C7_C8": 1.182750523918443,
+      "printed_C11_time_expression": 1.122677113376163
+    },
+    {
+      "b": 1.0,
+      "u": 100.0,
+      "alpha": 0.42,
+      "in_plane_merger_scale_gain": 6.918309709189364,
+      "inverse_total_ratio_consistent_with_C7_C8": 1.2183974228938486,
+      "printed_C11_time_expression": 1.182750523918443
+    },
+    {
+      "b": 2.0,
+      "u": 1.0,
+      "alpha": 0.42,
+      "in_plane_merger_scale_gain": 1.0,
+      "inverse_total_ratio_consistent_with_C7_C8": 1.0,
+      "printed_C11_time_expression": 1.0
+    },
+    {
+      "b": 2.0,
+      "u": 2.0,
+      "alpha": 0.42,
+      "in_plane_merger_scale_gain": 1.337927554786112,
+      "inverse_total_ratio_consistent_with_C7_C8": 1.0254601417634286,
+      "printed_C11_time_expression": 1.0143343904953417
+    },
+    {
+      "b": 2.0,
+      "u": 10.0,
+      "alpha": 0.42,
+      "in_plane_merger_scale_gain": 2.6302679918953817,
+      "inverse_total_ratio_consistent_with_C7_C8": 1.0512060903734155,
+      "printed_C11_time_expression": 1.036321092903534
+    },
+    {
+      "b": 2.0,
+      "u": 100.0,
+      "alpha": 0.42,
+      "in_plane_merger_scale_gain": 6.918309709189364,
+      "inverse_total_ratio_consistent_with_C7_C8": 1.0592778580045692,
+      "printed_C11_time_expression": 1.0512060903734155
+    }
+  ],
+  "limitations": [
+    "An assumed averaged CGL closure is not an exact local kinetic evolution.",
+    "The model divergence near its critical curve does not imply infinite physical growth: a finite box and model breakdown matter.",
+    "No corrected PIC spectral point or causal explanation of observed transients is obtained.",
+    "The G criterion is retained; strict negativity corresponds to a finite model crossing, equality to asymptotic marginality."
+  ]
+}

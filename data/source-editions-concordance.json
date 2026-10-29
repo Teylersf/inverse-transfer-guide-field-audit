@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "checked_utc": "2026-10-29T20:09:08.464850+00:00",
+  "title": "Suppression of Inverse Magnetic Energy Transfer in Collisionless Marginally Magnetized Plasmas",
+  "authors": [
+    "Zhuo Liu",
+    "Muni Zhou",
+    "Nuno F. Loureiro"
+  ],
+  "scope": "Full 12-page arXiv v1 and full 10-page journal VOR were read; critical equations and explanation visually checked against publisher PDF. This is a substantive concordance, not a character-by-character exhaustive editorial diff.",
+  "arxiv": {
+    "id": "2510.01573",
+    "version": "v1",
+    "submission_utc": "2025-10-02T01:43:53Z",
+    "visible_draft_date": "2025-10-03",
+    "latest_listed_version": "v1",
+    "landing_url": "https://arxiv.org/abs/2510.01573",
+    "pdf_url": "https://arxiv.org/pdf/2510.01573v1",
+    "pdf_bytes": 13964336,
+    "pdf_sha256": "a49ff4ad514d11e82dda52f7f51eb6afb63d4bd3fa4ffa4216d58faff2f4ab85",
+    "pdf_pages": 12,
+    "supplied_byte_identical_to_official_v1": true,
+    "source_url": "https://arxiv.org/src/2510.01573v1",
+    "source_archive_bytes": 15703688,
+    "source_archive_sha256": "96f77ec7947db8a93db69d5f6d13ec4eb119053f84d372968a033dbbb76b87de",
+    "main_tex_sha256": "407197b492d7cb10502d4e44760b317f8752e474e1a9be5609f2ff8d7bd505b9",
+    "source_archive_contents": "Manuscript TeX, bibliography, journal style files, figure PDFs and ORCID image; no simulation input decks, raw PIC data or analysis programs in this 16-member archive."
+  },
+  "journal": {
+    "doi": "10.3847/2041-8213/ae247e",
+    "article_url": "https://iopscience.iop.org/article/10.3847/2041-8213/ae247e",
+    "pdf_url": "https://iopscience.iop.org/article/10.3847/2041-8213/ae247e/pdf",
+    "journal": "The Astrophysical Journal Letters",
+    "volume": "995",
+    "article": "L46",
+    "received": "2025-10-02",
+    "revised": "2025-11-19",
+    "accepted": "2025-11-26",
+    "published_online": "2025-12-11",
+    "issue_date": "2025-12-20",
+    "pdf_pages": 10,
+    "pdf_bytes": 14165887,
+    "pdf_sha256": "b349fad9ca9c54562a4d7a1cddeb04fee3ae3b90a3cb7cf1965fc4413d9e14f8",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "full_vor_retrieved_and_read": true,
+    "retrieval_receipt": "publisher-vor-retrieval.json",
+    "scope_note": "Supersedes the historical preflight full-text access limitation; no challenge bypass. Publisher TeX source was not obtained. Selected equations were checked in visible publisher article math and authentic PDF."
+  },
+  "issues": [
+    {
+      "id": "cascade-total-versus-in-plane",
+      "status": "persists_in_vor",
+      "arxiv_locator": {
+        "pdf_page": 9,
+        "printed_page": 9,
+        "appendix": "B",
+        "equation": "B11",
+        "source_file": "arxiv-source-v1/main.tex",
+        "source_lines": [
+          321,
+          324
+        ]
+      },
+      "journal_locator": {
+        "pdf_page": 9,
+        "printed_page": 9,
+        "appendix": "C",
+        "equation": "C11",
+        "figure": "7(b)"
+      },
+      "direct_source_fact": "Both editions approximate the in-plane inverse-cascade ratio k0/k(t*) by the inverse ratio of total magnetic-field strengths including a uniform guide field.",
+      "mathematical_assessment": "That conversion does not follow from the in-plane merger scaling for finite guide field. With r=Btotal(t*)/Btotal(t0), b=BG/B0 and s=Binplane(t*)/Binplane(t0), s²=(1+2b²)r²−2b² and the in-plane gain is 1/s, not 1/r.",
+      "limits": "This concerns interpretation of the analytic gain curve and its bound, not proof that PIC trajectories or the source firehose criterion are false."
+    },
+    {
+      "id": "cascade-exponent",
+      "status": "persists_in_vor",
+      "arxiv_locator": {
+        "pdf_page": 9,
+        "printed_page": 9,
+        "appendix": "B",
+        "equation": "B11",
+        "source_file": "arxiv-source-v1/main.tex",
+        "source_lines": [
+          284,
+          290,
+          324
+        ]
+      },
+      "journal_locator": {
+        "pdf_page": 9,
+        "printed_page": 9,
+        "appendix": "C",
+        "equation": "C11",
+        "comparison_equations": [
+          "C7",
+          "C8"
+        ],
+        "comparison_pdf_page": 8
+      },
+      "direct_source_fact": "The denominator time factor in B11/C11 has exponent−alpha, while the squared in-plane field in B7/B8 and C7/C8 has exponent−2alpha.",
+      "mathematical_assessment": "The printed total-field ratio requires−2alpha for consistency with the already specified field-decay law. This typo is separate from the total/in-plane conversion.",
+      "limits": "No inference that the displayed plot or simulation code used the printed exponent."
+    },
+    {
+      "id": "guide-field-mhd-equilibrium",
+      "status": "persists_in_vor",
+      "arxiv_locator": {
+        "pdf_page": 10,
+        "printed_page": 10,
+        "appendix": "B",
+        "paragraph": "last paragraph before Appendix C",
+        "source_file": "arxiv-source-v1/main.tex",
+        "source_lines": [
+          335,
+          341
+        ]
+      },
+      "journal_locator": {
+        "pdf_page": 10,
+        "printed_page": 10,
+        "appendix": "C",
+        "paragraph": "last paragraph before ORCID iDs"
+      },
+      "direct_source_quote": "This is because the initial configuration is only an exact (MHD) equilibrium in the absence of a guide field. The inclusion of the latter drives the system away from equilibrium, more strongly as the magnitude of the guide field increases.",
+      "mathematical_assessment": "For the stated2D in-plane field and uniform out-of-plane guide, the current has only a z component, so J×(BG zhat)=0; the scalar-pressure MHD force balance is unchanged by adding this guide field.",
+      "limits": "Does not establish exact Vlasov/PIC equilibrium or identify the physical cause of a measured kinetic transient."
+    },
+    {
+      "id": "initial-size-ratio-reciprocal",
+      "status": "minor_description_inconsistency_persists",
+      "arxiv_locator": {
+        "pdf_page": 2,
+        "printed_page": 2,
+        "section": "2",
+        "source_file": "arxiv-source-v1/main.tex",
+        "source_lines": [
+          73,
+          74
+        ]
+      },
+      "journal_locator": {
+        "pdf_page": 2,
+        "printed_page": 2,
+        "section": "2"
+      },
+      "direct_source_fact": "Both give rho0≈2.1 and R0=L/(2πk0)=2.5, but then write R0≈0.8rho0.",
+      "mathematical_assessment": "The stated values give rho0/R0≈0.84, and R0/rho0≈1.19. The nearby description appears to reverse the ratio; the main discussion correctly uses rho/R≈0.8.",
+      "limits": "A reciprocal description typo does not remove the order-unity scale separation or invalidate the classification as marginally magnetized."
+    }
+  ],
+  "positive_and_other_changes": [
+    {
+      "id": "fluid-versus-kinetic-firehose",
+      "arxiv": "Section 3 p.3 and Section 4 pp.4–6 describe firehose thresholds and freeze qualitatively.",
+      "journal": "Section 3 p.3 distinguishes fluid and kinetic thresholds; Section 4 pp.4–5 adds an explicit timescale competition and equations 2–6.",
+      "assessment": "Substantive positive addition. Do not criticize the VOR as if it lacked a kinetic growth-rate argument."
+    },
+    {
+      "id": "new-local-diagnostics",
+      "arxiv": "No corresponding main-text figure.",
+      "journal": "New Figure 4 p.5 with explanatory Section 4 paragraph p.6 gives local anisotropy distribution and contours of−beta_parallelDelta for the guide 1.0 case.",
+      "assessment": "Positive evidence addition. The source explicitly tests proximity to fluid firehose locally."
+    },
+    {
+      "id": "new-dispersion-appendix",
+      "arxiv": "No corresponding appendix.",
+      "journal": "New Appendix B pp.7–8, equations B1–B10, Figure6; hot-plasma bi-Maxwellian pair-plasma dispersion relation, secant roots with multiple starting guesses,50×50 logarithmic wavenumber grid.",
+      "assessment": "Positive addition supporting the reported growth-rate scaling. The present audit does not independently reproduce this solver."
+    },
+    {
+      "id": "cgl-validity-region",
+      "arxiv": "Figure5(a) and CGLdiscussion pp.8–9 have no gray applicability region.",
+      "journal": "Figure 7(a) and Appendix C pp.8–9 add a gray region for guide fields too weak to magnetize near X-points, with explicit limitations on the volume-averaged CGL description.",
+      "assessment": "Positive scope clarification. Approximate volume-average closure is explicitly assumed in both editions; it is not an undisclosed exact identity."
+    },
+    {
+      "id": "removed-well-magnetized-guide-example",
+      "arxiv": "Appendix C pp.10–11 and Figures 7–9 show a well-magnetized finite-guide comparison. Section 4 last paragraph refers to this validation.",
+      "journal": "No corresponding appendix or these three figures in the10-page VOR. Appendix A well-magnetized no-guide case remains.",
+      "assessment": "Edition change, not an accusation. Do not cite the removed example as evidence present in the final article."
+    }
+  ],
+  "figure_concordance": [
+    {
+      "arxiv_figure": "1",
+      "arxiv_pdf_page": 2,
+      "journal_figure": "1",
+      "journal_pdf_page": 2,
+      "relationship": "same diagnostic topic; no byte identity asserted"
+    },
+    {
+      "arxiv_figure": "2",
+      "arxiv_pdf_page": 4,
+      "journal_figure": "2",
+      "journal_pdf_page": 3,
+      "relationship": "same diagnostic topic; no byte identity asserted"
+    },
+    {
+      "arxiv_figure": "3",
+      "arxiv_pdf_page": 5,
+      "journal_figure": "3",
+      "journal_pdf_page": 4,
+      "relationship": "same three guide-field case panel layout; VOR adds Larmor-scale annotation"
+    },
+    {
+      "arxiv_figure": "4",
+      "arxiv_pdf_page": 7,
+      "journal_figure": "5",
+      "journal_pdf_page": 7,
+      "relationship": "well-magnetized no-guide diagnostics"
+    },
+    {
+      "arxiv_figure": "5",
+      "arxiv_pdf_page": 9,
+      "journal_figure": "7",
+      "journal_pdf_page": 9,
+      "relationship": "G region and analytic cascade gain; VOR adds gray applicability region"
+    },
+    {
+      "arxiv_figure": "6",
+      "arxiv_pdf_page": 9,
+      "journal_figure": "8",
+      "journal_pdf_page": 9,
+      "relationship": "volume-averaged CGL invariants"
+    },
+    {
+      "arxiv_figure": "7–9",
+      "arxiv_pdf_pages": [
+        10,
+        11
+      ],
+      "journal_figure": null,
+      "relationship": "finite-guide well-magnetized appendix removed"
+    },
+    {
+      "arxiv_figure": null,
+      "journal_figure": "4",
+      "journal_pdf_page": 5,
+      "relationship": "new local anisotropy diagnostics"
+    },
+    {
+      "arxiv_figure": null,
+      "journal_figure": "6",
+      "journal_pdf_page": 8,
+      "relationship": "new kinetic dispersion growth-rate figure"
+    }
+  ],
+  "preserved_interpretive_limits": [
+    "The scalar firehose threshold equation r³+2r⁴/beta0−1=0 and the G guide-strength criterion survive the cascadegain correction under the source stated CGL approximations.",
+    "The numerical PIC suppression observation is not disproved by an algebraic error in an analytic conversion or an incorrect MHD explanation of transients.",
+    "The double-adiabatic averaged laws are explicitly approximate assumptions, with finite-guide and weak-guide limitations discussed in the VOR.",
+    "Both editions acknowledge 2D geometry and pair-plasma limitations.",
+    "No deposition URL or dedicated data/code availability statement was identified in the complete article/source read; no exhaustive search or absence-of-code claim is made.",
+    "The preflight correction-query receipts remain bounded historical searches, not a universal claim that no correction exists."
+  ],
+  "reference_metadata_receipt": "reference-metadata-verification.json",
+  "public_safety": "Stable official URLs and relative evidence filenames only; no download watermark/IP/authentication cookies/private query strings included."
+}

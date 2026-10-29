@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.json -text
+*.csv -text
+data/source-editions-concordance.md -text
+*.png binary
+*.pdf binary

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "software_version": "1.0.0",
+  "author": "Taylor Kalin",
+  "scope": "Original conditional model code, deterministic outputs, figures, source metadata and reproduction documentation; manuscript/venue records excluded.",
+  "hash_algorithm": "SHA-256",
+  "self_excluded": "data/computational-artifact-manifest.json",
+  "file_count": 24,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 112,
+      "sha256": "db75c6a3aca843a40195773251b44c9dcdafd3d9ffefb2a836a45c6fad9ff65a"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 204,
+      "sha256": "87c1a3d2c69a3822512294485db0f7890dda422e866baa994297b17f56d0842d"
+    },
+    {
+      "path": "LICENSE-CODE",
+      "bytes": 1217,
+      "sha256": "a8bca0b78cb25a8281d8c7bfe2631dd5aeade39241576435b7c8181a071fd266"
+    },
+    {
+      "path": "LICENSE-MANUSCRIPT",
+      "bytes": 595,
+      "sha256": "a93855eef1012e27994f63e4b51b08311117c06588a256e4295573f76c4b27be"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3741,
+      "sha256": "c8681c36c10c8095dc53637443c2e1efcd1fb30982fdefd2177e8f90b470214d"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 5777,
+      "sha256": "176db5388811a67087556ceac9dce10b4a9aa9f7e97e2b87cd92e08745065259"
+    },
+    {
+      "path": "SOURCE.md",
+      "bytes": 3126,
+      "sha256": "dbc980eaf191e74c50cebd82623c4cb3c9d7a74b3ac57325f821bdaecb2da0c6"
+    },
+    {
+      "path": "data/reference-metadata-verification.json",
+      "bytes": 9307,
+      "sha256": "a7d0b67f471d2eab24a4322dac4d8c9156ea003fda3572d4a625244908bf67af"
+    },
+    {
+      "path": "data/source-editions-concordance.json",
+      "bytes": 12290,
+      "sha256": "47d29bcb37b2ca01eb046da402971c5868d34b11ce52ecc20fec0081088229ed"
+    },
+    {
+      "path": "data/source-editions-concordance.md",
+      "bytes": 10623,
+      "sha256": "656d1382fdac385a17aaa0ef1c6ee7d74218730138d59e69a1490ad0cc8edf98"
+    },
+    {
+      "path": "data/source-editions.json",
+      "bytes": 3921,
+      "sha256": "37537184c4dd4c5c90e06093ea9bb8c13415136dc852577e1551927b47bef42a"
+    },
+    {
+      "path": "experiments/verify_drive_outputs_independently.py",
+      "bytes": 9179,
+      "sha256": "eb3a8506cf767e71afd139d08ae2347b9c95cd786826c22251090154770d1066"
+    },
+    {
+      "path": "experiments/verify_finite_guide_drive.py",
+      "bytes": 4298,
+      "sha256": "b98b6731d14dae607f8003a3a196bfcab5dae442ba955e1eb5d4e712c63873ec"
+    },
+    {
+      "path": "experiments/verify_guide_field_model.py",
+      "bytes": 9934,
+      "sha256": "7e2fe5136f97a83fa1bc72898195a237a36ab1195f7a62791c57a0b7cc314ad8"
+    },
+    {
+      "path": "experiments/verify_model_outputs_independently.py",
+      "bytes": 8438,
+      "sha256": "2f23d52242b85ecc1e85f495c1ea1fb0910525e67acaf6416aa0ac2817afe546"
+    },
+    {
+      "path": "figures/model-scale-conversion.png",
+      "bytes": 130212,
+      "sha256": "012c9f9f5c4a804af4fa1309d9b00871d570fd689df693fde8df79e816ff4c2e"
+    },
+    {
+      "path": "figures/total-versus-in-plane.png",
+      "bytes": 83785,
+      "sha256": "2448dccd2d968232faed7246c0c72a0cb63fb50776045ae419c8ebc646994767"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 32,
+      "sha256": "adc7fa5a4dbaa7335c32c1e7d10cffae5c96f67ba2f5f22c8453c1bc11cf8e0a"
+    },
+    {
+      "path": "results/finite-guide-drive-independent.json",
+      "bytes": 8297,
+      "sha256": "a6443a672b29bb2d85cf986b0ed76ef1c63b6119fc7a39e6a6993d6818b5d008"
+    },
+    {
+      "path": "results/finite-guide-drive.json",
+      "bytes": 9566,
+      "sha256": "d4d5c5648b4e8913481e65d058c774878cc2388efdf62d7bdb93bf64ab089280"
+    },
+    {
+      "path": "results/finite-guide-generation.csv",
+      "bytes": 373,
+      "sha256": "23d64d3c9c3ea7a6ce1c7f12bfa8cff158dabe3641351da3dda58e9f65dce2f7"
+    },
+    {
+      "path": "results/independent-verification.json",
+      "bytes": 6967,
+      "sha256": "a2f1c81b03994ef05c65690354d3cc056e68affa1fa6d4ac309c2fcf6958a7f5"
+    },
+    {
+      "path": "results/model-cases.csv",
+      "bytes": 1492,
+      "sha256": "fdd7d4e04a008f513f0658f3cfdf4299355a1b25beec7eb402934f51616c3977"
+    },
+    {
+      "path": "results/model-checks.json",
+      "bytes": 12876,
+      "sha256": "b27f4945cff1ca3ffa4fb9d0fff17e2090b85b5d695b81fd1f81107b9597468b"
+    }
+  ],
+  "scientific_checks": {
+    "model_cases": 13,
+    "temporal_points": 12,
+    "generation_factors": 3,
+    "drive_derivatives": 9,
+    "drive_crossing_examples": 12,
+    "independent_verifiers": 2,
+    "new_PIC_runs": 0
+  },
+  "claim_limits": [
+    "Conditional averaged model, not a kinetic or PIC reanalysis.",
+    "The source G accessibility criterion is preserved.",
+    "No universal replacement of journal Eq.(6)."
+  ],
+  "excluded_roots": [
+    "audit/",
+    "paper/",
+    "submissions/"
+  ],
+  "excluded_files": [
+    "experiments/build_paper.py"
+  ]
+}

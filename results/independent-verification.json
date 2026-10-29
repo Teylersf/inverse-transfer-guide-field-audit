@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "scope": "Independent conditional model algebra, 13 frozen parameter cases and analytic initial-force controls; no PIC or source-figure reproduction.",
+  "method": "80-digit Decimal Newton root plus separate squared-in-plane-amplitude bisection; analytic trigonometric pressure/current derivatives, not the study FFT helper.",
+  "inputs": [
+    {
+      "path": "experiments/verify_guide_field_model.py",
+      "bytes": 9934,
+      "sha256": "7e2fe5136f97a83fa1bc72898195a237a36ab1195f7a62791c57a0b7cc314ad8"
+    },
+    {
+      "path": "results/model-checks.json",
+      "bytes": 12876,
+      "sha256": "b27f4945cff1ca3ffa4fb9d0fff17e2090b85b5d695b81fd1f81107b9597468b"
+    },
+    {
+      "path": "results/model-cases.csv",
+      "bytes": 1492,
+      "sha256": "fdd7d4e04a008f513f0658f3cfdf4299355a1b25beec7eb402934f51616c3977"
+    },
+    {
+      "path": "figures/model-scale-conversion.png",
+      "bytes": 130212,
+      "sha256": "012c9f9f5c4a804af4fa1309d9b00871d570fd689df693fde8df79e816ff4c2e"
+    },
+    {
+      "path": "figures/total-versus-in-plane.png",
+      "bytes": 83785,
+      "sha256": "2448dccd2d968232faed7246c0c72a0cb63fb50776045ae419c8ebc646994767"
+    }
+  ],
+  "verifier": {
+    "path": "experiments/verify_model_outputs_independently.py",
+    "bytes": 8438,
+    "sha256": "2f23d52242b85ecc1e85f495c1ea1fb0910525e67acaf6416aa0ac2817afe546"
+  },
+  "parameter_cases": [
+    {
+      "b": 0,
+      "beta0": 10.8,
+      "finite_model_crossing": true,
+      "independent_total_field_root": 0.9475369903395685,
+      "root_absolute_error": 0.0,
+      "independent_in_plane_gain": 1.0553677694858439,
+      "gain_relative_error": 0.0,
+      "crossing_u_relative_error": 0.0
+    },
+    {
+      "b": 1,
+      "beta0": 3,
+      "finite_model_crossing": true,
+      "independent_total_field_root": 0.8598139699260687,
+      "root_absolute_error": 0.0,
+      "independent_in_plane_gain": 2.14255015831223,
+      "gain_relative_error": 2.072713248402497e-16,
+      "crossing_u_relative_error": 5.789342734945255e-16
+    },
+    {
+      "b": 1,
+      "beta0": 2,
+      "finite_model_crossing": true,
+      "independent_total_field_root": 0.8191725133961645,
+      "root_absolute_error": 0.0,
+      "independent_in_plane_gain": 8.72678093486693,
+      "gain_relative_error": 2.23907594097304e-15,
+      "crossing_u_relative_error": 5.232044455270038e-15
+    },
+    {
+      "b": 2,
+      "beta0": 10,
+      "finite_model_crossing": true,
+      "independent_total_field_root": 0.9439829490385658,
+      "root_absolute_error": 0.0,
+      "independent_in_plane_gain": 7.082715587313791,
+      "gain_relative_error": 8.401855670513734e-15,
+      "crossing_u_relative_error": 1.98882545740016e-14
+    },
+    {
+      "b": 2,
+      "beta0": 100,
+      "finite_model_crossing": true,
+      "independent_total_field_root": 0.9934633081782208,
+      "root_absolute_error": 1.1102230246251565e-16,
+      "independent_in_plane_gain": 1.0643574578053658,
+      "gain_relative_error": 2.0861845172097773e-16,
+      "crossing_u_relative_error": 5.742055879983071e-16
+    },
+    {
+      "b": 1,
+      "beta0": 1,
+      "finite_model_crossing": false,
+      "independent_total_field_root": 0.7389836215045062,
+      "root_absolute_error": 0.0
+    },
+    {
+      "b": 2,
+      "beta0": 1,
+      "finite_model_crossing": false,
+      "independent_total_field_root": 0.7389836215045062,
+      "root_absolute_error": 0.0
+    },
+    {
+      "b": 1,
+      "beta0": 1.970241302515371,
+      "finite_model_crossing": true,
+      "independent_total_field_root": 0.8175663891219024,
+      "root_absolute_error": 1.1102230246251565e-16,
+      "independent_in_plane_gain": 13.808675324013947,
+      "gain_relative_error": 3.447569167850371e-14,
+      "crossing_u_relative_error": 8.180340014011915e-14
+    },
+    {
+      "b": 1,
+      "beta0": 1.9509290362827947,
+      "finite_model_crossing": true,
+      "independent_total_field_root": 0.8165073466683885,
+      "root_absolute_error": 0.0,
+      "independent_in_plane_gain": 137.69678525292653,
+      "gain_relative_error": 2.8067351327391986e-12,
+      "crossing_u_relative_error": 6.682465265504609e-12
+    },
+    {
+      "b": 1,
+      "beta0": 1.950735913620469,
+      "finite_model_crossing": true,
+      "independent_total_field_root": 0.8164966885919451,
+      "root_absolute_error": 0.0,
+      "independent_in_plane_gain": 1376.9287810642131,
+      "gain_relative_error": 2.566398850200942e-10,
+      "crossing_u_relative_error": 6.110471321597284e-10
+    },
+    {
+      "b": 2,
+      "beta0": 9.85534941551075,
+      "finite_model_crossing": true,
+      "independent_total_field_root": 0.943287849006764,
+      "root_absolute_error": 0.0,
+      "independent_in_plane_gain": 11.09216465188547,
+      "gain_relative_error": 4.580152495140921e-14,
+      "crossing_u_relative_error": 1.0936234947025253e-13
+    },
+    {
+      "b": 2,
+      "beta0": 9.758747475695348,
+      "finite_model_crossing": true,
+      "independent_total_field_root": 0.9428138700171467,
+      "root_absolute_error": 0.0,
+      "independent_in_plane_gain": 110.47095886304858,
+      "gain_relative_error": 4.360727642346624e-12,
+      "crossing_u_relative_error": 1.038256072863802e-11
+    },
+    {
+      "b": 2,
+      "beta0": 9.757781456297193,
+      "finite_model_crossing": true,
+      "independent_total_field_root": 0.942809089870485,
+      "root_absolute_error": 1.1102230246251565e-16,
+      "independent_in_plane_gain": 1104.6644241712231,
+      "gain_relative_error": 1.117055104516548e-09,
+      "crossing_u_relative_error": 2.65965494596027e-09
+    }
+  ],
+  "maximum_total_root_absolute_error": 1.1102230246251565e-16,
+  "maximum_corrected_gain_relative_error": 1.117055104516548e-09,
+  "maximum_crossing_u_relative_error": 2.65965494596027e-09,
+  "all_13_CSV_rows_match_JSON_exactly": true,
+  "all_12_time_expression_points_match": true,
+  "analytic_constant_guide_force_residual": 5.551115123125783e-17,
+  "analytic_nonuniform_guide_negative_control_max_residual": 0.05,
+  "positive_controls": [
+    "G accessibility criterion retained within the declared closure.",
+    "Zero-guide in-plane and total ratio coincide.",
+    "Uniform-guide initial scalar-MHD force balance is unchanged.",
+    "Inaccessible formal roots have no in-plane gain or time assigned."
+  ],
+  "limitations": [
+    "Near-critical float64 subtraction is ill-conditioned; the largest gain discrepancy is about1.2e-9 relative and should not be interpreted as16-digit physical accuracy.",
+    "The formal divergence is an extrapolation of the averaged model, not physical infinite growth.",
+    "No kinetic equilibrium, observed transient cause, raw PIC output or corrected spectral point is verified."
+  ],
+  "root_implementation_modified": false
+}

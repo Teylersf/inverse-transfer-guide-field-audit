@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "scope": "Primary Crossref registration metadata for three cited predecessors; confirms bibliographic metadata, not all scientific contents.",
+  "references": [
+    {
+      "doi": "10.1098/rspa.1956.0116",
+      "title": [
+        "The Boltzmann equation an d the one-fluid hydromagnetic equations in the absence of particle collisions"
+      ],
+      "authors": [
+        {
+          "given": "G. F.",
+          "family": "Chew",
+          "ORCID": null
+        },
+        {
+          "given": "M. L.",
+          "family": "Goldberger",
+          "ORCID": null
+        },
+        {
+          "given": "F. E.",
+          "family": "Low",
+          "ORCID": null
+        }
+      ],
+      "journal": [
+        "Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences"
+      ],
+      "volume": "236",
+      "issue": "1204",
+      "pages": "112-118",
+      "article_number": null,
+      "publisher": "The Royal Society",
+      "published": {
+        "date-parts": [
+          [
+            1956,
+            7,
+            10
+          ]
+        ]
+      },
+      "published_online": null,
+      "published_print": {
+        "date-parts": [
+          [
+            1956,
+            7,
+            10
+          ]
+        ]
+      },
+      "official_url": "https://royalsocietypublishing.org/rspa/article/236/1204/112/9845/The-Boltzmann-equation-an-d-the-one-fluid",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                1956,
+                7,
+                10
+              ]
+            ],
+            "date-time": "1956-07-10T00:00:00Z",
+            "timestamp": -425347200000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://royalsociety.org/journals/ethics-policies/data-sharing-mining/"
+        }
+      ],
+      "primary_metadata_url": "https://api.crossref.org/works/10.1098%2Frspa.1956.0116",
+      "checked_utc": "2026-10-29T20:07:33.453281+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "metadata_file": "crossref-reference-rspa.1956.0116.json",
+      "metadata_sha256": "496a2c6d775c3a0f68e12054b6a07d9c864b9ac0638ee60dbb4397a5c9d45a78",
+      "metadata_bytes": 4168,
+      "record_type": "journal-article",
+      "registration_metadata_only": true,
+      "normalized_citation": "Chew, G. F., Goldberger, M. L., and Low, F. E. (1956). The Boltzmann equation and the one-fluid hydromagnetic equations in the absence of particle collisions. Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences 236(1204),112–118. https://doi.org/10.1098/rspa.1956.0116",
+      "title_normalization_note": "Crossref title literally contains the apparent spacing error \"an d\"; normalized citation joins this to \"and\". Royal Society landing request returned403; no claim to have read this original article in full."
+    },
+    {
+      "doi": "10.1103/physrevresearch.1.012004",
+      "title": [
+        "Magnetic island merger as a mechanism for inverse magnetic energy transfer"
+      ],
+      "authors": [
+        {
+          "given": "Muni",
+          "family": "Zhou",
+          "ORCID": null
+        },
+        {
+          "given": "Pallavi",
+          "family": "Bhat",
+          "ORCID": null
+        },
+        {
+          "given": "Nuno F.",
+          "family": "Loureiro",
+          "ORCID": null
+        },
+        {
+          "given": "Dmitri A.",
+          "family": "Uzdensky",
+          "ORCID": null
+        }
+      ],
+      "journal": [
+        "Physical Review Research"
+      ],
+      "volume": "1",
+      "issue": "1",
+      "pages": null,
+      "article_number": "012004",
+      "publisher": "American Physical Society (APS)",
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            8,
+            9
+          ]
+        ]
+      },
+      "published_online": {
+        "date-parts": [
+          [
+            2019,
+            8,
+            9
+          ]
+        ]
+      },
+      "published_print": null,
+      "official_url": "https://link.aps.org/doi/10.1103/PhysRevResearch.1.012004",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2019,
+                8,
+                9
+              ]
+            ],
+            "date-time": "2019-08-09T00:00:00Z",
+            "timestamp": 1565308800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "primary_metadata_url": "https://api.crossref.org/works/10.1103%2FPhysRevResearch.1.012004",
+      "checked_utc": "2026-10-29T20:07:34.843560+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "metadata_file": "crossref-reference-PhysRevResearch.1.012004.json",
+      "metadata_sha256": "13101c0101664d9056676fc4fa517a5b0f08e27bf96187b1c9e61fbfd1eef407",
+      "metadata_bytes": 10490,
+      "record_type": "journal-article",
+      "registration_metadata_only": true,
+      "normalized_citation": "Zhou, M., Bhat, P., Loureiro, N. F., and Uzdensky, D. A. (2019). Magnetic island merger as a mechanism for inverse magnetic energy transfer. Physical Review Research 1,012004(R). https://doi.org/10.1103/PhysRevResearch.1.012004",
+      "publisher_page_check": {
+        "url": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.1.012004",
+        "checked_date_utc": "2026-10-29",
+        "method": "web tool primary publisher text",
+        "confirmed": [
+          "title",
+          "four authors",
+          "Physical Review Research1,012004(R)",
+          "published9August2019",
+          "DOI",
+          "CC-BY-4.0"
+        ],
+        "scope": "Publisher bibliographic details and abstract; not a full new scientific review."
+      }
+    },
+    {
+      "doi": "10.1017/s0022377820000641",
+      "title": [
+        "Multi-scale dynamics of magnetic flux tubes and inverse magnetic energy transfer"
+      ],
+      "authors": [
+        {
+          "given": "Muni",
+          "family": "Zhou",
+          "ORCID": "https://orcid.org/0000-0003-0709-7848"
+        },
+        {
+          "given": "Nuno F.",
+          "family": "Loureiro",
+          "ORCID": "https://orcid.org/0000-0001-9755-6563"
+        },
+        {
+          "given": "Dmitri A.",
+          "family": "Uzdensky",
+          "ORCID": "https://orcid.org/0000-0001-8792-6698"
+        }
+      ],
+      "journal": [
+        "Journal of Plasma Physics"
+      ],
+      "volume": "86",
+      "issue": "4",
+      "pages": null,
+      "article_number": "535860401",
+      "publisher": "Cambridge University Press (CUP)",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            7,
+            8
+          ]
+        ]
+      },
+      "published_online": {
+        "date-parts": [
+          [
+            2020,
+            7,
+            8
+          ]
+        ]
+      },
+      "published_print": {
+        "date-parts": [
+          [
+            2020,
+            8
+          ]
+        ]
+      },
+      "official_url": "https://www.cambridge.org/core/product/identifier/S0022377820000641/type/journal_article",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                8
+              ]
+            ],
+            "date-time": "2020-07-08T00:00:00Z",
+            "timestamp": 1594166400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://www.cambridge.org/core/terms"
+        }
+      ],
+      "primary_metadata_url": "https://api.crossref.org/works/10.1017%2FS0022377820000641",
+      "checked_utc": "2026-10-29T20:07:35.074357+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "metadata_file": "crossref-reference-S0022377820000641.json",
+      "metadata_sha256": "152d3d9f502811b84db4b52f461afc87c31f3b78bc9bd7f89fb6a031776c45a9",
+      "metadata_bytes": 13257,
+      "record_type": "journal-article",
+      "registration_metadata_only": true,
+      "normalized_citation": "Zhou, M., Loureiro, N. F., and Uzdensky, D. A. (2020). Multi-scale dynamics of magnetic flux tubes and inverse magnetic energy transfer. Journal of Plasma Physics 86(4),535860401. https://doi.org/10.1017/S0022377820000641",
+      "publisher_page_check": {
+        "url": "https://www.cambridge.org/core/journals/journal-of-plasma-physics/article/abs/multiscale-dynamics-of-magnetic-flux-tubes-and-inverse-magnetic-energy-transfer/37BBFECFC331AD60B5EDB4BAB2A5D52B",
+        "checked_date_utc": "2026-10-29",
+        "method": "web tool primary publisher text",
+        "confirmed": [
+          "title",
+          "Journal of Plasma Physics86(4),535860401",
+          "August2020",
+          "DOI"
+        ],
+        "scope": "Publisher bibliographic details; no full new scientific review."
+      }
+    }
+  ]
+}

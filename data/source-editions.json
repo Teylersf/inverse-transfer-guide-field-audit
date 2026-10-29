@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "prepared_utc": "2026-10-29T20:10:32.867387+00:00",
+  "title": "Suppression of Inverse Magnetic Energy Transfer in Collisionless Marginally Magnetized Plasmas",
+  "authors": [
+    "Zhuo Liu",
+    "Muni Zhou",
+    "Nuno F. Loureiro"
+  ],
+  "article_id": "2510.01573",
+  "editions": [
+    {
+      "edition": "arXiv v1",
+      "landing_url": "https://arxiv.org/abs/2510.01573",
+      "pdf_url": "https://arxiv.org/pdf/2510.01573v1",
+      "submitted_utc": "2025-10-02T01:43:53Z",
+      "visible_draft_date": "2025-10-03",
+      "latest_version_listed_when_checked": "v1",
+      "pdf_http_status": 200,
+      "pdf_retrieved_utc": "2026-10-29T19:32:38.623092+00:00",
+      "pdf_bytes": 13964336,
+      "pdf_sha256": "a49ff4ad514d11e82dda52f7f51eb6afb63d4bd3fa4ffa4216d58faff2f4ab85",
+      "pdf_pages": 12,
+      "supplied_byte_identical_to_official": true,
+      "source_archive_url": "https://arxiv.org/src/2510.01573v1",
+      "source_http_status": 200,
+      "source_retrieved_utc": "2026-10-29T20:04:52.373020+00:00",
+      "source_archive_bytes": 15703688,
+      "source_archive_sha256": "96f77ec7947db8a93db69d5f6d13ec4eb119053f84d372968a033dbbb76b87de",
+      "extracted_main_tex_sha256": "407197b492d7cb10502d4e44760b317f8752e474e1a9be5609f2ff8d7bd505b9",
+      "source_archive_member_count": 16
+    },
+    {
+      "edition": "journal version of record",
+      "doi": "10.3847/2041-8213/ae247e",
+      "doi_url": "https://doi.org/10.3847/2041-8213/ae247e",
+      "article_url": "https://iopscience.iop.org/article/10.3847/2041-8213/ae247e",
+      "pdf_url": "https://iopscience.iop.org/article/10.3847/2041-8213/ae247e/pdf",
+      "journal": "The Astrophysical Journal Letters",
+      "volume": "995",
+      "article": "L46",
+      "received": "2025-10-02",
+      "revised": "2025-11-19",
+      "accepted": "2025-11-26",
+      "published_online": "2025-12-11",
+      "issue_date": "2025-12-20",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "retrieved_utc": "2026-10-29T20:03:24.229200+00:00",
+      "pdf_bytes": 14165887,
+      "pdf_sha256": "b349fad9ca9c54562a4d7a1cddeb04fee3ae3b90a3cb7cf1965fc4413d9e14f8",
+      "pdf_pages": 10,
+      "retrieval_method": "Official publisher PDF link through supported Chrome download after user-cleared human challenge. No challenge bypass, cookie export or alternate credentials.",
+      "pdf_http_status": "not exposed by browser download API",
+      "verified_pdf_magic": "%PDF-1.7",
+      "full_text_read": true,
+      "publisher_tex_source_obtained": false
+    }
+  ],
+  "inspection_scope": {
+    "arxiv_pages_read": 12,
+    "journal_pages_read": 10,
+    "critical_vor_pages_visually_checked": [
+      2,
+      9,
+      10
+    ],
+    "edition_comparison": "Substantive scientific and locator concordance, not an exhaustive character-level editorial diff.",
+    "no_source_pdf_redistribution": true,
+    "erratum_scope": "No correction located in the initial registration record and two bounded title queries; no exhaustive no-erratum claim.",
+    "data_code_scope": "No code/data deposition link identified in complete article read; no simulation or analysis code in the 16-member arXiv source archive. This does not prove that no external code exists."
+  },
+  "public_evidence_files": [
+    {
+      "file": "source-editions-concordance.json",
+      "bytes": 12290,
+      "sha256": "47d29bcb37b2ca01eb046da402971c5868d34b11ce52ecc20fec0081088229ed"
+    },
+    {
+      "file": "source-editions-concordance.md",
+      "bytes": 10623,
+      "sha256": "656d1382fdac385a17aaa0ef1c6ee7d74218730138d59e69a1490ad0cc8edf98"
+    },
+    {
+      "file": "reference-metadata-verification.json",
+      "bytes": 9307,
+      "sha256": "a7d0b67f471d2eab24a4322dac4d8c9156ea003fda3572d4a625244908bf67af"
+    }
+  ]
+}
