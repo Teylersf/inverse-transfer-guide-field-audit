@@ -1,0 +1,9 @@
+{
+  "state": "sent_verified",
+  "subject": "Restart failed reviewer panel for p_cu1zYyMhwUXGs0Dd",
+  "sent_at_utc": "2026-10-29T22:05:55Z",
+  "paper_id": "p_cu1zYyMhwUXGs0Dd",
+  "verified_sent_headers_and_label": true,
+  "interpretation": "Sent-message confirmation, not a publisher reply or pipeline recovery.",
+  "requested_action": "Recover existing failed round1; no duplicate paper submitted."
+}

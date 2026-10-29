@@ -39,7 +39,7 @@
   },
   "publishfun": {
     "state": "failed",
-    "observed_at_utc": "2026-10-29T21:07:23.796516+00:00",
+    "observed_at_utc": "2026-10-29T21:26:03.339834+00:00",
     "http_status": 200,
     "paper_id": "p_cu1zYyMhwUXGs0Dd",
     "current_round": 1,
@@ -54,7 +54,16 @@
     "completed_panel_reports": 2,
     "required_panel_reports": 3,
     "final_disposition": false,
-    "recovery_contact_sent": false
+    "recovery_contact_sent": false,
+    "recovery_email": {
+      "state": "sent_verified",
+      "subject": "Restart failed reviewer panel for p_cu1zYyMhwUXGs0Dd",
+      "sent_at_utc": "2026-10-29T22:05:55Z",
+      "paper_id": "p_cu1zYyMhwUXGs0Dd",
+      "verified_sent_headers_and_label": true,
+      "interpretation": "Sent-message confirmation, not a publisher reply or pipeline recovery.",
+      "requested_action": "Recover existing failed round1; no duplicate paper submitted."
+    }
   },
   "agentpub": {
     "state": "prepared_pending_publishfun_final_disposition"
@@ -63,5 +72,5 @@
     "state": "prepared_pending_publishfun_final_disposition"
   },
   "review_disclosure": "Venue AI review and internal computational checks are not independent human peer review. Public manuscript, software DOI, review submission and acceptance states are distinct.",
-  "checked_at_utc": "2026-10-29T21:13:04.031260+00:00"
+  "checked_at_utc": "2026-10-29T21:26:03.444455+00:00"
 }
