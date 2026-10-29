@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T20:33:49.305813+00:00",
+  "stage": "candidate_layout_QA",
+  "version": "1.0.0 draft",
+  "canonical_author": "Taylor Kalin",
+  "title": "Guide-field normalization and cascade growth in collisionless magnetic-island merging",
+  "PDF": {
+    "path": "paper/main.pdf",
+    "bytes": 292555,
+    "sha256": "fb36975e4417cc7d2f0fdb399f576719e7ad4fb15af59309525d39d9063af269",
+    "pages": 10
+  },
+  "manuscript": {
+    "path": "paper/manuscript.md",
+    "sha256": "f801bb875263ecdb52f2d55211184b2c4340b3aa37cd70d174850ec1d1a4260e"
+  },
+  "scope": "Offline visual inspection of all10 candidate pages; no rebuild, PDF operation marker, browser, network, Git or scientific-output mutation. This is not final release certification.",
+  "visual_review": {
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "render_method": "Poppler90dpi page PNGs; all contact sheets inspected, plus full-page views1,4,5,6.",
+    "clipped_text_or_equations_observed": false,
+    "missing_glyphs_observed": false,
+    "title": "Fits within margins on two lines; first line has loose justification matching the underfull-hbox warning.",
+    "Figure1": "Two stacked panels on page4: titles, legends, y labels, ticks and both Initial-beta x labels are distinct and legible; no panel-label overlap. Caption fits above footer.",
+    "Figure2": "Page5 labels, legend and caption legible.",
+    "tables": "Both tables complete and within margins on pages5and6; header wrapping is readable and the longtable-footer build issue is not visible.",
+    "equations": "Visible fraction/superscript/math glyphs intact; display equations stay within margins.",
+    "headings": "No isolated heading without following text. A short introduction to Eq7 ends page3 and its display starts page4; no missing content.",
+    "references": "All5 cited records appear on dedicated page10; DOI hyperlinks remain intact despite line wrapping.",
+    "draft_state": "Draft label and absence of archiveDOI are intentional at this stage."
+  },
+  "technical_checks": {
+    "all10_pages_extract_nonempty": true,
+    "replacement_characters_in_extraction": 0,
+    "PDF_author_Taylor_Kalin": true,
+    "compile_diagnostics": [
+      "Underfull \\hbox (badness 4254) in paragraph at lines 3--3"
+    ],
+    "overfull_boxes": false,
+    "compile_log_sha256": "ca12680d78a9069a1ef64ed7c8604eaf6b80668c0aaa4a6142e41f6c0bbd2ec9"
+  },
+  "nonblocking_recommendations": [
+    {
+      "locator": "page1 title; LaTeX body line3",
+      "recommendation": "Use ragged-right title formatting in the final build to remove visibly stretched first-line word spacing and its underfull-hbox warning. No title text change is necessary."
+    }
+  ],
+  "blocking_layout_issues": [],
+  "final_recheck_needed": [
+    "Title/front matter after draft removal",
+    "Archive availability paragraph and added reference6",
+    "Any pages whose pagination changes in the final build"
+  ],
+  "result": "pass_with_nonblocking_title_spacing_note"
+}

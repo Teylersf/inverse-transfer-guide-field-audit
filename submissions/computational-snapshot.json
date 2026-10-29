@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "software_version": "1.0.0",
+  "canonical_author": "Taylor Kalin",
+  "computational_commit": "8ecf2c6407731de91025208153a269a59573e515",
+  "git_tree": "fd84c913e6f9e767a17f79db3073b0e546679b87",
+  "repository": "https://github.com/Teylersf/inverse-transfer-guide-field-audit",
+  "immutable_source_url": "https://github.com/Teylersf/inverse-transfer-guide-field-audit/tree/8ecf2c6407731de91025208153a269a59573e515",
+  "github_branch_pushed": "main",
+  "software_archive": {
+    "filename": "inverse-transfer-guide-field-audit-code-v1.0.0.zip",
+    "bytes": 242467,
+    "sha256": "f0f4396b3f2d534683d16a9c42d373071c86943a9d0f6e086eff7ccc0c645214",
+    "format": "git archive ZIP",
+    "member_prefix": "inverse-transfer-guide-field-audit-code-v1.0.0/",
+    "file_members": 25,
+    "git_archive_comment_matches_commit": true,
+    "every_member_matches_clean_reproduction": true
+  },
+  "manifest": {
+    "path": "data/computational-artifact-manifest.json",
+    "bytes": 4862,
+    "sha256": "eb0e40777176f5ffb6260fec91d8fb42a4d91cf12b4d1b1bb4d818a0f3cf8e9f",
+    "artifacts_excluding_self": 24
+  },
+  "reproduction": {
+    "all_four_programs_passed": true,
+    "clean_git_tree_archive_without_audit_paper_submissions_or_builder": true,
+    "isolated_python": true,
+    "all_25_file_bytes_unchanged_after_rerun": true,
+    "final_commit_tree_identical_to_tested_tree": true,
+    "all_prior_scalar_model_and_drive_arrays_exactly_preserved": true,
+    "proof_sha256": "b75255868955c502e02c63f3181e830b455ef4b5e0ad2b817f902c3fe89d99b5",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.2"
+  },
+  "software_DOI": {
+    "status": "published",
+    "value": "10.5281/zenodo.23779360",
+    "record_url": "https://zenodo.org/records/23779360",
+    "verification_receipt": "submissions/zenodo-code-v1.0.0.json",
+    "verification_receipt_sha256": "0b0ba12f69bcacb168053963a9ac2d64bb64c6a5f5b5be76d9b773088f90b90d"
+  },
+  "paper_and_venue_status": "Forthcoming manuscript; no venue state inferred from computational release.",
+  "new_PIC_runs": 0,
+  "anonymous_public_verification": {
+    "status": 200,
+    "url": "https://codeload.github.com/Teylersf/inverse-transfer-guide-field-audit/zip/8ecf2c6407731de91025208153a269a59573e515",
+    "final_url": "https://codeload.github.com/Teylersf/inverse-transfer-guide-field-audit/zip/8ecf2c6407731de91025208153a269a59573e515",
+    "authorization_header_used": false,
+    "cookies_used": false,
+    "public_archive_bytes": 244207,
+    "public_archive_sha256": "522b20b4582376b2d10be1790aaa90e7d38f01ee98eade4edf42a27644b3b166",
+    "all_25_file_members_match_local_commit_and_manifest": true
+  },
+  "code_doi": "10.5281/zenodo.23779360",
+  "code_doi_verified_published": true
+}

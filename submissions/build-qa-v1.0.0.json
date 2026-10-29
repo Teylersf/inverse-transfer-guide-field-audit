@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T20:46:17.652611+00:00",
+  "stage": "final_layout_and_release_identity_QA",
+  "version": "1.0.0",
+  "canonical_author": "Taylor Kalin",
+  "title": "Guide-field normalization and cascade growth in collisionless magnetic-island merging",
+  "PDF": {
+    "path": "paper/main.pdf",
+    "bytes": 295498,
+    "sha256": "dbcb34779b802d52c29f50d2cec25fb17c0ada520c653bd11f702d6d0a25324d",
+    "pages": 10,
+    "delivery_copy_matches": true
+  },
+  "manuscript": {
+    "path": "paper/manuscript.md",
+    "sha256": "0f8f7ac2abffbda564452cd639c497c1575dbf23ea4249715241f9b70d44dd5e"
+  },
+  "comparison_to_candidate": {
+    "candidate_receipt": "submissions/build-qa-v1.0.0-candidate.json",
+    "candidate_all_pages_already_inspected": true,
+    "all_final_pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "changes_checked": [
+      "Ragged-right title removes loose justification",
+      "Draft removed from version line",
+      "Minor scale-ratio paragraph excluded from manuscript",
+      "Code availability, permanent software DOI and reference6 added"
+    ],
+    "render_method": "All10 final Poppler90dpi pages inspected in contact sheets; previously full-page checked candidate figure/table pages remain visually intact."
+  },
+  "visual_review": {
+    "title_spacing_fixed": true,
+    "clipped_text_or_math": false,
+    "missing_glyphs_observed": false,
+    "both_figures_and_stacked_labels_legible": true,
+    "both_tables_complete_and_readable": true,
+    "all6_references_present_on_page10": true,
+    "code_availability_and_ref6_fit": true,
+    "blocking_layout_issues": []
+  },
+  "archive_and_numbers": {
+    "software_doi": "10.5281/zenodo.23779360",
+    "frozen_code_commit": "8ecf2c6407731de91025208153a269a59573e515",
+    "archive_bytes": 242467,
+    "archive_sha256": "f0f4396b3f2d534683d16a9c42d373071c86943a9d0f6e086eff7ccc0c645214",
+    "matches_existing_verified_Zenodo_receipt": true,
+    "Zenodo_receipt": "submissions/zenodo-code-v1.0.0.json",
+    "checks_in_scope": "DOI/commit/archive identity crosschecked offline against exact local ZIP and the existing positive primary verification receipt; no new network request.",
+    "frozen_code_results_and_figure_files_checked": 12,
+    "all_checked_bytes_equal_frozen_git_tree": true,
+    "all_printed_table_values_match_CSV_rounding": true,
+    "chi_limits_preserved": [
+      "Approximately fixed density and modeled characteristic field",
+      "beta0*chi0 much greater than1 for the initial short-interval estimate",
+      "Not valid for arbitrarily delayed crossing near G=0",
+      "Does not replace accessibility test or supply a universal arrest criterion",
+      "No fitted PIC measurement or physical divergence claimed"
+    ]
+  },
+  "technical_checks": {
+    "all_pages_extract_nonempty": true,
+    "compile_diagnostics": [],
+    "compile_log_sha256": "1b7349c70384ecf014064387bfe8f5465619bd92b555aa2ebb4f4797b779610b",
+    "version_line": "Version 1.0.0; 29 October 2026",
+    "PDF_author_Taylor_Kalin": true
+  },
+  "separate_provenance_scope_note": "Resolved in final manuscript Section7 and public SOURCE_SCOPE.md: the archived working size-ratio observation is provisional and excluded from the released findings. Immutable code archive files and computational results remain unchanged.",
+  "operation_boundary": "No build, PDF operation marker, browser, network, Git mutation or scientific file edit performed.",
+  "result": "pass",
+  "scope_delta_review": {
+    "prior_receipt": "submissions/build-qa-v1.0.0-pre-scope.json",
+    "prior_receipt_sha256": "bb76490f3b9dd5787fda2ce9dd879616410dbd16df8d8972a97f99d68d4a949e",
+    "all10_pages_rerendered": true,
+    "pixel_identical_to_previous_final": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10
+    ],
+    "changed_pages": [
+      8,
+      9
+    ],
+    "delta_pages_visually_inspected": [
+      8,
+      9,
+      10
+    ],
+    "observations": [
+      "New exclusion/scope note on page8 is complete and legible",
+      "Code availability now begins cleanly at the top of page9",
+      "Conclusion and all6 references remain complete",
+      "No clipping, missing glyphs or orphaned heading introduced"
+    ],
+    "SOURCE_SCOPE_commit": "06e4601859fb876d3eecf04c69dab99e2a2c2020",
+    "SOURCE_SCOPE_sha256": "36652ec097fb90ac8d6e5bf43d039426c3c407e5439dd65111bd82b92349e3f1"
+  }
+}

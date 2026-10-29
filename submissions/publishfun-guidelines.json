@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-29T20:40:13.122957+00:00",
+  "http_status": 200,
+  "study": "inverse-transfer-guide-field-audit",
+  "response": {
+    "url": "https://publish.fun/api/papers/submit"
+  }
+}

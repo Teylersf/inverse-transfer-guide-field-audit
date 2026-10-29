@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T20:44:39.961382+00:00",
+  "stage": "final_layout_and_release_identity_QA",
+  "version": "1.0.0",
+  "canonical_author": "Taylor Kalin",
+  "title": "Guide-field normalization and cascade growth in collisionless magnetic-island merging",
+  "PDF": {
+    "path": "paper/main.pdf",
+    "bytes": 294897,
+    "sha256": "e568886f0c3ee3327ee925e5bd3ff2d94b7ca7e7f75611d6ea753b4b13d2192d",
+    "pages": 10,
+    "delivery_copy_matches": true
+  },
+  "manuscript": {
+    "path": "paper/manuscript.md",
+    "sha256": "0f497301ef6714dab32e69dd2100c685650318b722ce56727555c4efd666c064"
+  },
+  "comparison_to_candidate": {
+    "candidate_receipt": "submissions/build-qa-v1.0.0-candidate.json",
+    "candidate_all_pages_already_inspected": true,
+    "all_final_pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "changes_checked": [
+      "Ragged-right title removes loose justification",
+      "Draft removed from version line",
+      "Minor scale-ratio paragraph excluded from manuscript",
+      "Code availability, permanent software DOI and reference6 added"
+    ],
+    "render_method": "All10 final Poppler90dpi pages inspected in contact sheets; previously full-page checked candidate figure/table pages remain visually intact."
+  },
+  "visual_review": {
+    "title_spacing_fixed": true,
+    "clipped_text_or_math": false,
+    "missing_glyphs_observed": false,
+    "both_figures_and_stacked_labels_legible": true,
+    "both_tables_complete_and_readable": true,
+    "all6_references_present_on_page10": true,
+    "code_availability_and_ref6_fit": true,
+    "blocking_layout_issues": []
+  },
+  "archive_and_numbers": {
+    "software_doi": "10.5281/zenodo.23779360",
+    "frozen_code_commit": "8ecf2c6407731de91025208153a269a59573e515",
+    "archive_bytes": 242467,
+    "archive_sha256": "f0f4396b3f2d534683d16a9c42d373071c86943a9d0f6e086eff7ccc0c645214",
+    "matches_existing_verified_Zenodo_receipt": true,
+    "Zenodo_receipt": "submissions/zenodo-code-v1.0.0.json",
+    "checks_in_scope": "DOI/commit/archive identity crosschecked offline against exact local ZIP and the existing positive primary verification receipt; no new network request.",
+    "frozen_code_results_and_figure_files_checked": 12,
+    "all_checked_bytes_equal_frozen_git_tree": true,
+    "all_printed_table_values_match_CSV_rounding": true,
+    "chi_limits_preserved": [
+      "Approximately fixed density and modeled characteristic field",
+      "beta0*chi0 much greater than1 for the initial short-interval estimate",
+      "Not valid for arbitrarily delayed crossing near G=0",
+      "Does not replace accessibility test or supply a universal arrest criterion",
+      "No fitted PIC measurement or physical divergence claimed"
+    ]
+  },
+  "technical_checks": {
+    "all_pages_extract_nonempty": true,
+    "compile_diagnostics": [],
+    "compile_log_sha256": "332554427baa2d3e85b20368cfb2eeebbb65f7f43693383cdd66bb30df5948de",
+    "version_line": "Version 1.0.0; 29 October 2026",
+    "PDF_author_Taylor_Kalin": true
+  },
+  "separate_provenance_scope_note": "Archived working concordance retains an initial-size-ratio candidate excluded from this final manuscript. Root was alerted to document final-scope precedence publicly; no frozen metadata bytes were changed by this QA. This is separate from PDF layout and numerical identity.",
+  "operation_boundary": "No build, PDF operation marker, browser, network, Git mutation or scientific file edit performed.",
+  "result": "pass_layout_and_numeric_identity"
+}

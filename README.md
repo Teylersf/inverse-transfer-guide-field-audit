@@ -2,7 +2,9 @@
 
 **Author: Taylor Kalin** · [taylorkalin.com](https://taylorkalin.com) · [ORCID](https://orcid.org/0009-0003-9000-9315)
 
-This is the **v1.0.0 computational package** for a conditional mathematical audit of [Liu, Zhou and Loureiro, ApJL 995, L46 (2025)](https://doi.org/10.3847/2041-8213/ae247e) and [arXiv:2510.01573v1](https://arxiv.org/abs/2510.01573v1). The completed calculations are original deterministic model checks. The accompanying manuscript is being prepared separately; this code snapshot does not claim a paper publication, venue acceptance, or a software DOI.
+This repository contains manuscript **1.0.0** and its computational evidence for a conditional mathematical audit of [Liu, Zhou and Loureiro, ApJL 995, L46 (2025)](https://doi.org/10.3847/2041-8213/ae247e) and [arXiv:2510.01573v1](https://arxiv.org/abs/2510.01573v1). The completed calculations are original deterministic model checks.
+
+Read the [complete paper](paper/manuscript.md), [10-page PDF](paper/main.pdf), and [final source-scope clarification](SOURCE_SCOPE.md). The verified [software/data archive](https://doi.org/10.5281/zenodo.23779360) freezes computational snapshot `8ecf2c6407731de91025208153a269a59573e515`; its files remain unchanged. [Publication status](submissions/publication-status.json) distinguishes the public manuscript, software publication, venue review and acceptance.
 
 The package checks four distinctions within the source's stated assumptions:
 

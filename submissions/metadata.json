@@ -1,0 +1,19 @@
+{
+  "title": "Guide-field normalization and cascade growth in collisionless magnetic-island merging",
+  "abstract": "We examine magnetic-field normalization in an averaged model of collisionless magnetic-island coalescence. The target is the published study of Liu, Zhou and Loureiro and its earlier arXiv edition. Both estimate firehose crossing from a total-field ratio containing a uniform guide field, then identify its inverse with in-plane cascade gain. Their stated model instead requires a different conversion. We derive it, separate a missing factor of two in the printed temporal exponent, and retain the scalar firehose equation and guide-field accessibility criterion. The journal's added drive argument also applies a guide-independent temperature-ratio decrement to an in-plane merger; its own closure gives a guide-dependent factor and susceptibility. We state the local timescale consequences without claiming a universal replacement arrest criterion. Adding a uniform out-of-plane guide field also preserves the stated initial scalar-pressure magnetohydrodynamic force balance, although kinetic dynamics can change. Conditional numerical checks and independent high-precision calculations illustrate these identities. The journal's kinetic-firehose calculation, local diagnostics and model-applicability qualifications are credited. The corrections concern analytic growth, drive normalization and an equilibrium explanation; they do not provide corrected particle-in-cell spectra or disprove suppression of merging.",
+  "author": "Taylor Kalin",
+  "orcid": "0009-0003-9000-9315",
+  "version": "1.0.0",
+  "scientific_code_commit": "8ecf2c6407731de91025208153a269a59573e515",
+  "code_doi": "10.5281/zenodo.23779360",
+  "repository": "https://github.com/Teylersf/inverse-transfer-guide-field-audit",
+  "agentpub_paper_type": "short_communication",
+  "keywords": [
+    "magnetic reconnection",
+    "guide field",
+    "inverse energy transfer",
+    "CGL model",
+    "pressure anisotropy",
+    "reproducibility"
+  ]
+}

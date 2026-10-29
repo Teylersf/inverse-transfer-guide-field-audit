@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-29T20:41:16.135219+00:00",
+  "record_url": "https://zenodo.org/records/23779360",
+  "record_api_url": "https://zenodo.org/api/records/23779360",
+  "record_api_http_status": 200,
+  "record_status": "published",
+  "submitted": true,
+  "doi": "10.5281/zenodo.23779360",
+  "title": "Computational evidence for Guide-field normalization and cascade growth in collisionless magnetic-island merging",
+  "version": "1.0.0",
+  "resource_type": {
+    "title": "Software",
+    "type": "software"
+  },
+  "creators": [
+    {
+      "name": "Kalin, Taylor",
+      "affiliation": null,
+      "orcid": "0009-0003-9000-9315"
+    }
+  ],
+  "publication_date": "2026-10-29",
+  "record_created": "2026-10-29T20:40:12.334602+00:00",
+  "record_updated": "2026-10-29T20:40:12.650543+00:00",
+  "record_level_license": {
+    "id": "cc-by-4.0"
+  },
+  "repository_URL": "https://github.com/Teylersf/inverse-transfer-guide-field-audit/tree/8ecf2c6407731de91025208153a269a59573e515",
+  "snapshot_commit": "8ecf2c6407731de91025208153a269a59573e515",
+  "description_contains_exact_commit_and_repository_URL": true,
+  "component_license_note": "Original code MIT; original audit text and figures CC BY 4.0; third-party material retains its rights. Record-level CC BY 4.0 is qualified by these explicit package/description terms.",
+  "component_license_files": {
+    "LICENSE-CODE": {
+      "present_once": true,
+      "sha256": "a8bca0b78cb25a8281d8c7bfe2631dd5aeade39241576435b7c8181a071fd266",
+      "MIT_identified": true,
+      "CC_BY_4_identified": false
+    },
+    "LICENSE-MANUSCRIPT": {
+      "present_once": true,
+      "sha256": "a93855eef1012e27994f63e4b51b08311117c06588a256e4295573f76c4b27be",
+      "MIT_identified": false,
+      "CC_BY_4_identified": true
+    }
+  },
+  "archive_member_count": 25,
+  "all_manifest_members_verified": true,
+  "file": {
+    "name": "inverse-transfer-guide-field-audit-code-v1.0.0.zip",
+    "record_bytes": 242467,
+    "record_checksum": "md5:d3f1f1e9af876dc8b4085fc5b53fd73c",
+    "local_and_download_MD5": "d3f1f1e9af876dc8b4085fc5b53fd73c",
+    "sha256": "f0f4396b3f2d534683d16a9c42d373071c86943a9d0f6e086eff7ccc0c645214",
+    "matches_frozen_local_archive": true
+  },
+  "record_api_evidence": {
+    "requested_url": "https://zenodo.org/api/records/23779360",
+    "http_status": 200,
+    "content_type": "application/json",
+    "bytes": 6110,
+    "sha256": "471a4b7e3eea2430b4bb027fbe1642fb88157ff2975a493c7ff2e5d9b5042381",
+    "final_host": "zenodo.org",
+    "final_path": "/api/records/23779360",
+    "checked_at_utc": "2026-10-29T20:41:10.524355+00:00",
+    "elapsed_seconds": 0.906
+  },
+  "anonymous_public_page": {
+    "requested_url": "https://zenodo.org/records/23779360",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 88379,
+    "sha256": "142c665a572397d759d2230288b6d29e5971fc1ebac880103b68cd7a9ad6fd6f",
+    "final_host": "zenodo.org",
+    "final_path": "/records/23779360",
+    "checked_at_utc": "2026-10-29T20:41:16.135219+00:00",
+    "elapsed_seconds": 1.234
+  },
+  "anonymous_download": {
+    "requested_url": "https://zenodo.org/api/records/23779360/files/inverse-transfer-guide-field-audit-code-v1.0.0.zip/content",
+    "http_status": 200,
+    "content_type": "application/octet-stream",
+    "bytes": 242467,
+    "sha256": "f0f4396b3f2d534683d16a9c42d373071c86943a9d0f6e086eff7ccc0c645214",
+    "final_host": "zenodo.org",
+    "final_path": "/api/records/23779360/files/inverse-transfer-guide-field-audit-code-v1.0.0.zip/content",
+    "checked_at_utc": "2026-10-29T20:41:11.823522+00:00",
+    "elapsed_seconds": 1.297
+  },
+  "datacite": {
+    "requested_url": "https://api.datacite.org/dois/10.5281/zenodo.23779360",
+    "http_status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 10602,
+    "sha256": "583898aff69e9a9a8571ca481528fa9f438d4780c57c84e30be0342fee66dec5",
+    "final_host": "api.datacite.org",
+    "final_path": "/dois/10.5281/zenodo.23779360",
+    "checked_at_utc": "2026-10-29T20:41:12.595944+00:00",
+    "elapsed_seconds": 0.765,
+    "state": "findable",
+    "doi": "10.5281/zenodo.23779360",
+    "titles": [
+      {
+        "title": "Computational evidence for Guide-field normalization and cascade growth in collisionless magnetic-island merging"
+      }
+    ],
+    "creators": [
+      {
+        "name": "Kalin, Taylor",
+        "nameType": "Personal",
+        "givenName": "Taylor",
+        "familyName": "Kalin",
+        "nameIdentifiers": [
+          {
+            "nameIdentifier": "0009-0003-9000-9315",
+            "nameIdentifierScheme": "ORCID"
+          }
+        ],
+        "affiliation": []
+      }
+    ],
+    "version": "1.0.0",
+    "types": {
+      "ris": "COMP",
+      "bibtex": "misc",
+      "citeproc": "article",
+      "schemaOrg": "SoftwareSourceCode",
+      "resourceType": "",
+      "resourceTypeGeneral": "Software"
+    },
+    "rightsList": [
+      {
+        "rights": "Creative Commons Attribution 4.0 International",
+        "rightsUri": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "schemeUri": "https://spdx.org/licenses/",
+        "rightsIdentifier": "cc-by-4.0",
+        "rightsIdentifierScheme": "SPDX"
+      },
+      {
+        "rights": "MIT License",
+        "rightsUri": "https://opensource.org/licenses/MIT",
+        "schemeUri": "https://spdx.org/licenses/",
+        "rightsIdentifier": "mit",
+        "rightsIdentifierScheme": "SPDX"
+      },
+      {
+        "rights": "Copyright (c) 2026 Taylor Kalin",
+        "rightsUri": "http://rightsstatements.org/vocab/InC/1.0/"
+      }
+    ],
+    "url": "https://zenodo.org/doi/10.5281/zenodo.23779360",
+    "relatedIdentifiers": [
+      {
+        "relationType": "IsVersionOf",
+        "relatedIdentifier": "10.5281/zenodo.23779359",
+        "relatedIdentifierType": "DOI"
+      }
+    ]
+  },
+  "doi_registration_authority": {
+    "requested_url": "https://doi.org/ra/10.5281/zenodo.23779360",
+    "http_status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 70,
+    "sha256": "31ec4f6de3f30b5d519420299130ea1a3dbed599e8cd477e5379c7f937372cd7",
+    "final_host": "doi.org",
+    "final_path": "/ra/10.5281/zenodo.23779360",
+    "checked_at_utc": "2026-10-29T20:41:12.756132+00:00",
+    "elapsed_seconds": 0.157,
+    "registration_authority": [
+      {
+        "DOI": "10.5281/zenodo.23779360",
+        "RA": "DataCite"
+      }
+    ]
+  },
+  "doi_resolution": {
+    "requested_url": "https://doi.org/10.5281/zenodo.23779360",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 88379,
+    "sha256": "142c665a572397d759d2230288b6d29e5971fc1ebac880103b68cd7a9ad6fd6f",
+    "final_host": "zenodo.org",
+    "final_path": "/records/23779360",
+    "checked_at_utc": "2026-10-29T20:41:14.907241+00:00",
+    "elapsed_seconds": 2.156
+  },
+  "anonymous_access": {
+    "authorization_header_used": false,
+    "cookies_used": false,
+    "signed_URL_used": false
+  },
+  "all_checks_passed": true
+}

@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-10-29T20:45:16.871007+00:00",
+  "canonical_markdown_sha256": "0f8f7ac2abffbda564452cd639c497c1575dbf23ea4249715241f9b70d44dd5e",
+  "submitted_body_sha256": "f51488d28904a06930d2df9b5059b792a0d999396958d3de281987d29f9aa746",
+  "abstract_sha256": "2f4114d4815716353fc895973ca0bd3052a79b046ed2acc92b66eae788e42fe7",
+  "transformations": [
+    "Remove duplicate body abstract; supply its identical text as metadata.",
+    "Expand two relative figure URLs to immutable public computational-snapshot URLs."
+  ],
+  "all_scientific_body_and_references_preserved": true,
+  "canonical_abstract_retained": true,
+  "references": 6
+}

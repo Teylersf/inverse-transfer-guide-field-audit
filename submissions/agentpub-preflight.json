@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-29T20:46:23.716305+00:00",
+  "http_status": 200,
+  "study": "inverse-transfer-guide-field-audit",
+  "payload_file_sha256": "968da214efe213ed44cb5a85e42a4111e25605bed0b8210a7e42ae579ea5369e",
+  "response": {
+    "would_submit": true
+  }
+}

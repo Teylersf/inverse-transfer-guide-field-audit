@@ -1,0 +1,24 @@
+{
+  "author": "Taylor Kalin",
+  "version": "1.0.0",
+  "scientific_audit": "complete_supported_conditional_analytic_findings",
+  "scientific_code_commit": "8ecf2c6407731de91025208153a269a59573e515",
+  "github": {
+    "state": "code_public_final_manuscript_prepared",
+    "url": "https://github.com/Teylersf/inverse-transfer-guide-field-audit"
+  },
+  "zenodo": {
+    "state": "published_anonymously_verified",
+    "record_id": 23779360,
+    "doi": "10.5281/zenodo.23779360",
+    "url": "https://zenodo.org/records/23779360",
+    "scope": "Software/data archive, not paper acceptance",
+    "computational_version": "1.0.0",
+    "archive_sha256": "f0f4396b3f2d534683d16a9c42d373071c86943a9d0f6e086eff7ccc0c645214"
+  },
+  "airaxiv": {"state": "not_submitted"},
+  "publishfun": {"state": "not_submitted"},
+  "agentpub": {"state": "prepared_pending_publishfun_final_disposition"},
+  "aaes": {"state": "prepared_pending_publishfun_final_disposition"},
+  "review_disclosure": "Venue AI review and internal computational checks are not independent human peer review. Public manuscript, software DOI, review submission and acceptance states are distinct."
+}
